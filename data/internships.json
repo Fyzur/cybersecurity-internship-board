@@ -1,0 +1,30 @@
+{
+  "last_updated": "2026-08-02T01:02:37.658747+00:00",
+  "internships": [
+    {
+      "company": "SAMPLE DATA - Okta",
+      "title": "Cybersecurity Intern - Threat Intelligence",
+      "location": "Remote / Austin, TX",
+      "url": "https://okta.com/careers",
+      "date_posted": "2026-07-28",
+      "date_scraped": "2026-08-01"
+    },
+    {
+      "company": "SAMPLE DATA - CrowdStrike",
+      "title": "Security Operations Center (SOC) Intern",
+      "location": "Sunnyvale, CA",
+      "url": "https://crowdstrike.com/careers",
+      "date_posted": "2026-07-15",
+      "date_scraped": "2026-08-01"
+    },
+    {
+      "company": "SAMPLE DATA - Microsoft",
+      "title": "Identity and Access Management (IAM) Intern",
+      "location": "Redmond, WA",
+      "url": "https://careers.microsoft.com",
+      "date_posted": "2026-06-20",
+      "date_scraped": "2026-08-01"
+    }
+  ],
+  "failed_scrapers": []
+}

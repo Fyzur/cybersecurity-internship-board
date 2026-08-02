@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cybersecurity Careers Board</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cybersecurity Careers Board</h1>
+    <p class="subtitle">Active cybersecurity roles (internship through senior), aggregated from company career pages.</p>
+    <p id="last-updated" class="last-updated">Loading…</p>
+  </header>
+
+  <main>
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search title, company, or location…" aria-label="Search listings">
+      <select id="company-filter" aria-label="Filter by company">
+        <option value="">All companies</option>
+      </select>
+      <select id="sort-order" aria-label="Sort order">
+        <option value="newest">Newest first</option>
+        <option value="oldest">Oldest first</option>
+      </select>
+    </div>
+
+    <p id="result-count" class="result-count"></p>
+
+    <div id="cards" class="cards"></div>
+    <p id="empty-state" class="empty-state" hidden>No listings match your filters right now.</p>
+  </main>
+
+  <footer>
+    <p>Not affiliated with any listed company. Listings link directly to each employer's official application page.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
