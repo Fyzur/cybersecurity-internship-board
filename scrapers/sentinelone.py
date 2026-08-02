@@ -1,10 +1,9 @@
 """Scraper for SentinelOne's careers site (sentinelone.com/careers).
 
-SentinelOne uses Lever. Public JSON API (no HTML parsing needed):
-    https://api.lever.co/v0/postings/sentinelone?mode=json
+SentinelOne uses Workday. POST-based JSON API (no HTML parsing needed).
 
-NOTE: If this returns 404, check sentinelone.com/careers in a browser's Network
-tab for an API call to lever.co, greenhouse.io, or workday to get the current slug.
+NOTE: If this returns 404, open sentinelone.com/careers in a browser's Network
+tab, look for a POST to a `*/wday/cxs/*/jobs` URL, and update WORKDAY_URL below.
 """
 from datetime import datetime, timezone
 
@@ -13,40 +12,65 @@ import requests
 from .common import is_cyber_listing, make_listing
 
 COMPANY_NAME = "SentinelOne"
-LEVER_URL = "https://api.lever.co/v0/postings/sentinelone?mode=json"
+WORKDAY_URL = (
+    "https://sentinelone.wd1.myworkdayjobs.com/wday/cxs/sentinelone/"
+    "sentinelonecareers/jobs"
+)
+PAGE_SIZE = 20
+HEADERS = {
+    "Content-Type": "application/json",
+    "User-Agent": "Mozilla/5.0 (compatible; internship-board-scraper/1.0)",
+}
+
+
+def _fetch_page(offset: int) -> dict:
+    payload = {
+        "appliedFacets": {},
+        "limit": PAGE_SIZE,
+        "offset": offset,
+        "searchText": "",
+    }
+    resp = requests.post(WORKDAY_URL, json=payload, headers=HEADERS, timeout=20)
+    resp.raise_for_status()
+    return resp.json()
 
 
 def fetch_internships():
-    resp = requests.get(LEVER_URL, timeout=20)
-    resp.raise_for_status()
-    jobs = resp.json()
-
     today = datetime.now(timezone.utc).date().isoformat()
     results = []
-    for job in jobs:
-        title = job.get("text", "")
-        description = job.get("descriptionPlain", "") or job.get("description", "")
-        if not is_cyber_listing(title, description):
-            continue
+    offset = 0
 
-        created_ms = job.get("createdAt", 0)
-        if created_ms:
-            from datetime import datetime as dt
-            date_posted = dt.utcfromtimestamp(created_ms / 1000).date().isoformat()
-        else:
-            date_posted = today
+    while True:
+        data = _fetch_page(offset)
+        job_postings = data.get("jobPostings", [])
+        if not job_postings:
+            break
 
-        location = job.get("categories", {}).get("location", "") or "Unknown"
-        apply_url = job.get("hostedUrl", job.get("applyUrl", ""))
+        for job in job_postings:
+            title = job.get("title", "")
+            if not is_cyber_listing(title):
+                continue
 
-        results.append(make_listing(
-            company=COMPANY_NAME,
-            title=title,
-            location=location,
-            url=apply_url,
-            date_posted=date_posted,
-            date_scraped=today,
-        ))
+            external_path = job.get("externalPath", "")
+            base = "https://sentinelone.wd1.myworkdayjobs.com/sentinelonecareers"
+            url = base + external_path if external_path else base
+
+            posted = job.get("postedOn", "") or today
+
+            results.append(make_listing(
+                company=COMPANY_NAME,
+                title=title,
+                location=job.get("locationsText", "") or job.get("location", ""),
+                url=url,
+                date_posted=posted,
+                date_scraped=today,
+            ))
+
+        total = data.get("total", 0)
+        offset += PAGE_SIZE
+        if offset >= total:
+            break
+
     return results
 
 

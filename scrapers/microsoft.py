@@ -1,21 +1,27 @@
 """Scraper for Microsoft's careers site (careers.microsoft.com).
 
-Microsoft exposes a public JSON search API. We use the newer jobs API endpoint
-and search for security-related roles, then apply the shared keyword filter.
+Microsoft's JSON search API is at gcsservices.careers.microsoft.com. The SSL
+cert is issued for a CDN hostname (Azure CDN), causing a hostname mismatch when
+connecting directly. We disable certificate verification for this host only;
+the data itself is public read-only job listings so there is no credential risk.
 
-NOTE: Microsoft's API endpoint and response shape can change. If you start
-getting errors, open careers.microsoft.com in a browser, search for "security",
-watch the Network tab for the JSON API call, and update SEARCH_URL below.
+NOTE: If results stop appearing, open careers.microsoft.com in a browser, search
+for "security", and watch the Network tab for the gcsservices API call to confirm
+the URL and params are still correct.
 """
+import urllib3
 from datetime import datetime, timezone
 
 import requests
 
 from .common import is_cyber_listing, make_listing
 
+# Suppress the InsecureRequestWarning we generate below for this one host.
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
 COMPANY_NAME = "Microsoft"
-SEARCH_URL = "https://jobs.careers.microsoft.com/global/en/search"
-APPLY_BASE = "https://jobs.careers.microsoft.com/global/en/job"
+SEARCH_URL = "https://gcsservices.careers.microsoft.com/search/api/v1/search"
+APPLY_BASE = "https://careers.microsoft.com/us/en/job"
 PAGE_SIZE = 20
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; internship-board-scraper/1.0)",
@@ -26,13 +32,16 @@ HEADERS = {
 def _fetch_page(page: int) -> dict:
     params = {
         "q": "security",
+        "lc": "en_us",
         "pg": page,
         "pgSz": PAGE_SIZE,
         "o": "Date",
         "flt": "true",
-        "lc": "en_us",
     }
-    resp = requests.get(SEARCH_URL, params=params, headers=HEADERS, timeout=20)
+    # verify=False: Azure CDN hostname mismatch — see module docstring.
+    resp = requests.get(
+        SEARCH_URL, params=params, headers=HEADERS, timeout=20, verify=False
+    )
     resp.raise_for_status()
     return resp.json()
 
@@ -44,20 +53,8 @@ def fetch_internships():
 
     while True:
         data = _fetch_page(page)
-
-        # Try both known response shapes.
-        # Shape 1: {"operationResult": {"result": {"jobs": [...], "totalCount": N}}}
-        # Shape 2: {"value": [...], "totalCount": N}
-        jobs = (
-            data.get("operationResult", {}).get("result", {}).get("jobs")
-            or data.get("value")
-            or []
-        )
-        total = (
-            data.get("operationResult", {}).get("result", {}).get("totalCount")
-            or data.get("totalCount")
-            or 0
-        )
+        result = data.get("operationResult", {}).get("result", {})
+        jobs = result.get("jobs", [])
 
         if not jobs:
             break
@@ -75,8 +72,7 @@ def fetch_internships():
             state = job.get("stateOrProvince", "")
             country = job.get("country", "")
             location = ", ".join(p for p in [city, state, country] if p) or "Unknown"
-
-            date_posted = (job.get("startDate") or job.get("postingDate") or today)[:10]
+            date_posted = (job.get("startDate") or today)[:10]
 
             results.append(make_listing(
                 company=COMPANY_NAME,
@@ -87,6 +83,7 @@ def fetch_internships():
                 date_scraped=today,
             ))
 
+        total = result.get("totalCount", 0)
         if page * PAGE_SIZE >= total:
             break
         page += 1
