@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-02T01:47:41.040416+00:00",
+  "last_updated": "2026-08-02T01:50:26.949784+00:00",
   "internships": [
     {
       "company": "CrowdStrike",
@@ -2781,15 +2781,15 @@
   "failed_scrapers": [
     {
       "company": "Microsoft",
-      "error": "HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max retries exceeded with url: /search/api/v1/search?q=security&lc=en_us&pg=1&pgSz=20&o=Date&flt=true (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'gcsservices.careers.microsoft.com'. (_ssl.c:1010)\")))"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "company": "Rapid7",
-      "error": "404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/rapid7/jobs?content=true"
+      "error": "404 Client Error: Not Found for url: https://api.lever.co/v0/postings/rapid7?mode=json"
     },
     {
       "company": "SentinelOne",
-      "error": "404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/sentinelone/jobs?content=true"
+      "error": "404 Client Error: Not Found for url: https://api.lever.co/v0/postings/sentinelone?mode=json"
     }
   ]
 }
