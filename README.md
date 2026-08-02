@@ -32,13 +32,13 @@ scheduled scraper writes `data/internships.json`, the static frontend renders it
 
 ## Scraper notes / ATS findings
 
-| Company | ATS | API endpoint | Notes |
+| Company | ATS | Status | Notes |
 |---|---|---|---|
-| Okta | Greenhouse | `boards-api.greenhouse.io/v1/boards/okta/jobs` | Working ✅ |
-| Rapid7 | Lever | `api.lever.co/v0/postings/rapid7?mode=json` | Working ✅ (was Greenhouse 404 — moved to Lever) |
-| SentinelOne | Lever | `api.lever.co/v0/postings/sentinelone?mode=json` | Working ✅ (was Greenhouse 404 — moved to Lever) |
-| CrowdStrike | Workday | `crowdstrike.wd5.myworkdayjobs.com/wday/cxs/crowdstrike/crowdstrikecareers/jobs` | POST-based JSON API. Flag: Workday tenant path may drift — check Network tab if 404s appear. |
-| Microsoft | Custom | `jobs.careers.microsoft.com/global/en/search` | GET JSON API. Flag: response shape may change — watch for errors in logs. |
+| Okta | Greenhouse | ✅ Working | `boards-api.greenhouse.io/v1/boards/okta/jobs` |
+| CrowdStrike | Workday | ✅ Working | `crowdstrike.wd5.myworkdayjobs.com/wday/cxs/crowdstrike/crowdstrikecareers/jobs` |
+| Rapid7 | Workday | ⚠️ Needs fix | 422 error — Workday board name is wrong. Open rapid7.com/careers → Network tab → find the POST to `*/wday/cxs/*/jobs` → update `WORKDAY_URL` in `scrapers/rapid7.py` |
+| SentinelOne | Workday | ⚠️ Needs fix | 401 error — their Workday board may require auth. Check sentinelone.com/careers Network tab for the actual API. |
+| Microsoft | Custom | ⚠️ Needs fix | 404 — endpoint moved. Open careers.microsoft.com → search "security" → Network tab → find the JSON API call → update `SEARCH_URL` in `scrapers/microsoft.py` |
 
 Companies not yet checked: Google, Amazon, Apple, IBM, Cisco, Palo Alto Networks,
 Fortinet, CyberArk, Tenable, Splunk, Mandiant/Google Cloud Security.
