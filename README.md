@@ -35,10 +35,10 @@ scheduled scraper writes `data/internships.json`, the static frontend renders it
 | Company | ATS | API endpoint | Notes |
 |---|---|---|---|
 | Okta | Greenhouse | `boards-api.greenhouse.io/v1/boards/okta/jobs` | Working ✅ |
-| Rapid7 | Greenhouse | `boards-api.greenhouse.io/v1/boards/rapid7/jobs` | Working ✅ |
-| SentinelOne | Greenhouse | `boards-api.greenhouse.io/v1/boards/sentinelone/jobs` | Working ✅ |
+| Rapid7 | Lever | `api.lever.co/v0/postings/rapid7?mode=json` | Working ✅ (was Greenhouse 404 — moved to Lever) |
+| SentinelOne | Lever | `api.lever.co/v0/postings/sentinelone?mode=json` | Working ✅ (was Greenhouse 404 — moved to Lever) |
 | CrowdStrike | Workday | `crowdstrike.wd5.myworkdayjobs.com/wday/cxs/crowdstrike/crowdstrikecareers/jobs` | POST-based JSON API. Flag: Workday tenant path may drift — check Network tab if 404s appear. |
-| Microsoft | Custom | `gcsservices.careers.microsoft.com/search/api/v1/search` | GET JSON API. Flag: response shape may change — watch for KeyErrors in logs. |
+| Microsoft | Custom | `jobs.careers.microsoft.com/global/en/search` | GET JSON API. Flag: response shape may change — watch for errors in logs. |
 
 Companies not yet checked: Google, Amazon, Apple, IBM, Cisco, Palo Alto Networks,
 Fortinet, CyberArk, Tenable, Splunk, Mandiant/Google Cloud Security.

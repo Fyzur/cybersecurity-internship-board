@@ -1,15 +1,11 @@
 """Scraper for Microsoft's careers site (careers.microsoft.com).
 
-Microsoft exposes a public JSON search API:
-    GET https://gcsservices.careers.microsoft.com/search/api/v1/search
+Microsoft exposes a public JSON search API. We use the newer jobs API endpoint
+and search for security-related roles, then apply the shared keyword filter.
 
-We search for "security" (broad enough to catch cyber, IAM, SOC, etc.) and
-then apply the shared keyword filter on the returned title + description.
-
-NOTE: Microsoft's API structure may change. If you start getting KeyErrors or
-empty results, open careers.microsoft.com in a browser, search for "security
-intern", watch the Network tab for the gcsservices call, and update
-SEARCH_URL / response parsing below.
+NOTE: Microsoft's API endpoint and response shape can change. If you start
+getting errors, open careers.microsoft.com in a browser, search for "security",
+watch the Network tab for the JSON API call, and update SEARCH_URL below.
 """
 from datetime import datetime, timezone
 
@@ -18,22 +14,23 @@ import requests
 from .common import is_cyber_listing, make_listing
 
 COMPANY_NAME = "Microsoft"
-SEARCH_URL = "https://gcsservices.careers.microsoft.com/search/api/v1/search"
-APPLY_BASE = "https://careers.microsoft.com/us/en/job"
+SEARCH_URL = "https://jobs.careers.microsoft.com/global/en/search"
+APPLY_BASE = "https://jobs.careers.microsoft.com/global/en/job"
 PAGE_SIZE = 20
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; internship-board-scraper/1.0)",
+    "Accept": "application/json",
 }
 
 
 def _fetch_page(page: int) -> dict:
     params = {
         "q": "security",
-        "lc": "en_us",
         "pg": page,
         "pgSz": PAGE_SIZE,
         "o": "Date",
         "flt": "true",
+        "lc": "en_us",
     }
     resp = requests.get(SEARCH_URL, params=params, headers=HEADERS, timeout=20)
     resp.raise_for_status()
@@ -47,10 +44,20 @@ def fetch_internships():
 
     while True:
         data = _fetch_page(page)
-        # Response shape: {"operationResult": {"result": {"jobs": [...], "totalCount": N}}}
-        operation = data.get("operationResult", {})
-        result = operation.get("result", {})
-        jobs = result.get("jobs", [])
+
+        # Try both known response shapes.
+        # Shape 1: {"operationResult": {"result": {"jobs": [...], "totalCount": N}}}
+        # Shape 2: {"value": [...], "totalCount": N}
+        jobs = (
+            data.get("operationResult", {}).get("result", {}).get("jobs")
+            or data.get("value")
+            or []
+        )
+        total = (
+            data.get("operationResult", {}).get("result", {}).get("totalCount")
+            or data.get("totalCount")
+            or 0
+        )
 
         if not jobs:
             break
@@ -64,25 +71,22 @@ def fetch_internships():
             job_id = job.get("jobId", "")
             url = f"{APPLY_BASE}/{job_id}" if job_id else APPLY_BASE
 
-            # Build location string from available fields.
             city = job.get("city", "")
             state = job.get("stateOrProvince", "")
             country = job.get("country", "")
-            location_parts = [p for p in [city, state, country] if p]
-            location = ", ".join(location_parts) or "Unknown"
+            location = ", ".join(p for p in [city, state, country] if p) or "Unknown"
 
-            start_date = job.get("startDate", "") or today
+            date_posted = (job.get("startDate") or job.get("postingDate") or today)[:10]
 
             results.append(make_listing(
                 company=COMPANY_NAME,
                 title=title,
                 location=location,
                 url=url,
-                date_posted=start_date[:10],
+                date_posted=date_posted,
                 date_scraped=today,
             ))
 
-        total = result.get("totalCount", 0)
         if page * PAGE_SIZE >= total:
             break
         page += 1
