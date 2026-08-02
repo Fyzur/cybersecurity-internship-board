@@ -1,4 +1,4 @@
-name: Scrape & Deploy
+name: Scrape and Deploy
 
 on:
   schedule:
