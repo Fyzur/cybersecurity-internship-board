@@ -1,92 +1,105 @@
 """Scraper for Microsoft's careers site (careers.microsoft.com).
 
-Microsoft's JSON search API is at gcsservices.careers.microsoft.com. The SSL
-cert is issued for a CDN hostname (Azure CDN), causing a hostname mismatch when
-connecting directly. We disable certificate verification for this host only;
-the data itself is public read-only job listings so there is no credential risk.
+Microsoft moved its careers platform to apply.careers.microsoft.com (Eightfold).
+The site's own search API (/api/apply/v2/jobs) returns 403 "Not authorized for
+PCSX" for unauthenticated requests, even though robots.txt allows crawling it -
+it appears to require a signed-in session. Instead, we use the public job
+sitemap (robots.txt: `Allow: /careers`), which lists every open job URL, and
+read the standard schema.org JobPosting JSON-LD block off each job page - the
+same structured data Microsoft publishes for search engines.
 
-NOTE: If results stop appearing, open careers.microsoft.com in a browser, search
-for "security", and watch the Network tab for the gcsservices API call to confirm
-the URL and params are still correct.
+NOTE: If this stops finding jobs, open apply.careers.microsoft.com/careers in a
+browser and confirm SITEMAP_URL below still resolves and still contains
+<script type="application/ld+json"> JobPosting blocks on individual job pages.
 """
-import urllib3
+import json
+import re
+import time
 from datetime import datetime, timezone
 
 import requests
 
 from .common import is_cyber_listing, make_listing
 
-# Suppress the InsecureRequestWarning we generate below for this one host.
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
 COMPANY_NAME = "Microsoft"
-SEARCH_URL = "https://gcsservices.careers.microsoft.com/search/api/v1/search"
-APPLY_BASE = "https://careers.microsoft.com/us/en/job"
-PAGE_SIZE = 20
+SITEMAP_URL = "https://apply.careers.microsoft.com/careers/sitemap.xml"
+REQUEST_DELAY_SECONDS = 0.3
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; internship-board-scraper/1.0)",
-    "Accept": "application/json",
 }
 
+_JOB_URL_RE = re.compile(r"<loc>(https://apply\.careers\.microsoft\.com/careers/job/[^<]+)</loc>")
+_LD_JSON_RE = re.compile(
+    r'<script type="application/ld\+json">(.*?)</script>', re.DOTALL
+)
 
-def _fetch_page(page: int) -> dict:
-    params = {
-        "q": "security",
-        "lc": "en_us",
-        "pg": page,
-        "pgSz": PAGE_SIZE,
-        "o": "Date",
-        "flt": "true",
-    }
-    # verify=False: Azure CDN hostname mismatch — see module docstring.
-    resp = requests.get(
-        SEARCH_URL, params=params, headers=HEADERS, timeout=20, verify=False
-    )
+
+def _candidate_job_urls():
+    resp = requests.get(SITEMAP_URL, headers=HEADERS, timeout=30)
     resp.raise_for_status()
-    return resp.json()
+    urls = []
+    for url in _JOB_URL_RE.findall(resp.text):
+        # The URL slug is "<job-id>-<title words>-<location words>". Pre-filter
+        # on it (hyphens -> spaces) so we only fetch job pages worth reading.
+        slug = url.rsplit("/careers/job/", 1)[-1].split("?", 1)[0]
+        pseudo_title = slug.replace("-", " ")
+        if is_cyber_listing(pseudo_title):
+            urls.append(url)
+    return urls
+
+
+def _format_one_location(place: dict) -> str:
+    address = (place or {}).get("address", {})
+    locality = address.get("addressLocality", "")
+    region = (address.get("addressRegion", "") or "").split(",")[0]
+    country = (address.get("addressCountry", {}) or {}).get("name", "")
+    return ", ".join(p for p in [locality, region, country] if p)
+
+
+def _format_location(job_location) -> str:
+    # jobLocation is a single Place for single-location jobs, a list for
+    # multi-location postings.
+    places = job_location if isinstance(job_location, list) else [job_location]
+    formatted = [_format_one_location(p) for p in places]
+    return "; ".join(f for f in formatted if f)
 
 
 def fetch_internships():
     today = datetime.now(timezone.utc).date().isoformat()
     results = []
-    page = 1
 
-    while True:
-        data = _fetch_page(page)
-        result = data.get("operationResult", {}).get("result", {})
-        jobs = result.get("jobs", [])
+    job_urls = _candidate_job_urls()
 
-        if not jobs:
-            break
+    for url in job_urls:
+        resp = requests.get(url, headers=HEADERS, timeout=20)
+        time.sleep(REQUEST_DELAY_SECONDS)
+        if not resp.ok:
+            continue
 
-        for job in jobs:
-            title = job.get("title", "")
-            description = (job.get("properties") or {}).get("description", "")
-            if not is_cyber_listing(title, description):
-                continue
+        match = _LD_JSON_RE.search(resp.text)
+        if not match:
+            continue
 
-            job_id = job.get("jobId", "")
-            url = f"{APPLY_BASE}/{job_id}" if job_id else APPLY_BASE
+        try:
+            data = json.loads(match.group(1))
+        except json.JSONDecodeError:
+            continue
 
-            city = job.get("city", "")
-            state = job.get("stateOrProvince", "")
-            country = job.get("country", "")
-            location = ", ".join(p for p in [city, state, country] if p) or "Unknown"
-            date_posted = (job.get("startDate") or today)[:10]
+        title = data.get("title", "")
+        description = data.get("description", "")
+        if not is_cyber_listing(title, description):
+            continue
 
-            results.append(make_listing(
-                company=COMPANY_NAME,
-                title=title,
-                location=location,
-                url=url,
-                date_posted=date_posted,
-                date_scraped=today,
-            ))
+        date_posted = (data.get("datePosted") or today)[:10]
 
-        total = result.get("totalCount", 0)
-        if page * PAGE_SIZE >= total:
-            break
-        page += 1
+        results.append(make_listing(
+            company=COMPANY_NAME,
+            title=title,
+            location=_format_location(data.get("jobLocation")),
+            url=url,
+            date_posted=date_posted,
+            date_scraped=today,
+        ))
 
     return results
 

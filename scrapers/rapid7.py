@@ -1,9 +1,16 @@
 """Scraper for Rapid7's careers site (rapid7.com/careers).
 
-Rapid7 uses Workday. POST-based JSON API (no HTML parsing needed).
-
-NOTE: If this returns 404, open rapid7.com/careers in a browser's Network tab,
-look for a POST to a `*/wday/cxs/*/jobs` URL, and update WORKDAY_URL below.
+STATUS: BROKEN, not easily fixable. Rapid7 moved off Workday to a Radancy/
+Clinch-hosted site (careers.rapid7.com). Its job-search endpoint sits behind
+AWS WAF Bot Control - plain HTTP requests get a "challenge" response (empty
+202) instead of data. Individual job pages are fetchable and expose a
+JobPosting JSON-LD block, but there is no public way to enumerate the full
+job list without going through the WAF-gated search (the site's sitemap.xml
+only lists a handful of recently-changed pages, not all open jobs). We do not
+attempt to solve/evade the WAF challenge. This is left in place, still
+pointing at the old (now-dead) Workday URL, so it fails loudly and predictably
+via `failed_scrapers` rather than silently returning nothing - see README for
+details, and revisit if Rapid7 ever exposes a public jobs API again.
 """
 from datetime import datetime, timezone
 

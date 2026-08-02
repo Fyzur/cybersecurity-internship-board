@@ -1,10 +1,18 @@
-"""Scraper for SentinelOne's careers site (sentinelone.com/careers).
+"""Scraper for SentinelOne's careers site (sentinelone.com/jobs).
 
-SentinelOne uses Workday. POST-based JSON API (no HTML parsing needed).
+SentinelOne no longer uses Workday - the old WORKDAY_URL now returns 401. Their
+careers page (a Next.js app) embeds the full open-jobs list (Greenhouse job
+data, server-rendered) directly in the page's React Server Components payload
+(the `self.__next_f.push([1, "..."])` script chunks). We fetch the page and
+pull the `"jobs":[...]` array out of that payload instead of hitting an ATS API
+directly, since no public API endpoint is exposed.
 
-NOTE: If this returns 404, open sentinelone.com/careers in a browser's Network
-tab, look for a POST to a `*/wday/cxs/*/jobs` URL, and update WORKDAY_URL below.
+NOTE: If this stops finding jobs, open sentinelone.com/jobs in a browser, view
+source, and confirm a `self.__next_f.push` chunk still contains a `"jobs":[`
+array with `absolute_url`/`title`/`location` fields.
 """
+import json
+import re
 from datetime import datetime, timezone
 
 import requests
@@ -12,64 +20,82 @@ import requests
 from .common import is_cyber_listing, make_listing
 
 COMPANY_NAME = "SentinelOne"
-WORKDAY_URL = (
-    "https://sentinelone.wd1.myworkdayjobs.com/wday/cxs/sentinelone/"
-    "sentinelonecareers/jobs"
-)
-PAGE_SIZE = 20
+JOBS_PAGE_URL = "https://www.sentinelone.com/jobs/"
 HEADERS = {
-    "Content-Type": "application/json",
     "User-Agent": "Mozilla/5.0 (compatible; internship-board-scraper/1.0)",
 }
 
+_NEXT_F_CHUNK_RE = re.compile(r'self\.__next_f\.push\(\[1,"(.*?)"\]\)', re.DOTALL)
 
-def _fetch_page(offset: int) -> dict:
-    payload = {
-        "appliedFacets": {},
-        "limit": PAGE_SIZE,
-        "offset": offset,
-        "searchText": "",
-    }
-    resp = requests.post(WORKDAY_URL, json=payload, headers=HEADERS, timeout=20)
+
+def _extract_jobs_array(decoded_chunk: str):
+    """Bracket-match the `"jobs":[...]` array out of a decoded RSC payload string."""
+    marker = '"jobs":['
+    idx = decoded_chunk.find(marker)
+    if idx == -1:
+        return None
+
+    start = idx + len('"jobs":')
+    depth = 0
+    in_string = False
+    escaped = False
+    for i in range(start, len(decoded_chunk)):
+        ch = decoded_chunk[i]
+        if in_string:
+            if escaped:
+                escaped = False
+            elif ch == "\\":
+                escaped = True
+            elif ch == '"':
+                in_string = False
+        else:
+            if ch == '"':
+                in_string = True
+            elif ch == "[":
+                depth += 1
+            elif ch == "]":
+                depth -= 1
+                if depth == 0:
+                    return decoded_chunk[start:i + 1]
+    return None
+
+
+def _fetch_jobs():
+    resp = requests.get(JOBS_PAGE_URL, headers=HEADERS, timeout=20)
     resp.raise_for_status()
-    return resp.json()
+
+    for raw_chunk in _NEXT_F_CHUNK_RE.findall(resp.text):
+        if "absolute_url" not in raw_chunk:
+            continue
+        # The chunk is a JSON-string-escaped blob; wrap in quotes and decode
+        # via json.loads to unescape \" and \uXXXX sequences properly.
+        decoded = json.loads('"' + raw_chunk + '"')
+        jobs_json = _extract_jobs_array(decoded)
+        if jobs_json:
+            return json.loads(jobs_json)
+    return []
 
 
 def fetch_internships():
     today = datetime.now(timezone.utc).date().isoformat()
     results = []
-    offset = 0
 
-    while True:
-        data = _fetch_page(offset)
-        job_postings = data.get("jobPostings", [])
-        if not job_postings:
-            break
+    for job in _fetch_jobs():
+        title = job.get("title", "")
+        if not is_cyber_listing(title):
+            continue
 
-        for job in job_postings:
-            title = job.get("title", "")
-            if not is_cyber_listing(title):
-                continue
+        location = (job.get("location") or {}).get("name", "")
+        date_posted = (job.get("first_published") or today)[:10]
 
-            external_path = job.get("externalPath", "")
-            base = "https://sentinelone.wd1.myworkdayjobs.com/sentinelonecareers"
-            url = base + external_path if external_path else base
-
-            posted = job.get("postedOn", "") or today
-
-            results.append(make_listing(
-                company=COMPANY_NAME,
-                title=title,
-                location=job.get("locationsText", "") or job.get("location", ""),
-                url=url,
-                date_posted=posted,
-                date_scraped=today,
-            ))
-
-        total = data.get("total", 0)
-        offset += PAGE_SIZE
-        if offset >= total:
-            break
+        results.append(make_listing(
+            company=COMPANY_NAME,
+            title=title,
+            location=location,
+            url=job.get("absolute_url", ""),
+            date_posted=date_posted,
+            date_scraped=today,
+        ))
 
     return results
 

@@ -36,9 +36,9 @@ scheduled scraper writes `data/internships.json`, the static frontend renders it
 |---|---|---|---|
 | Okta | Greenhouse | ✅ Working | `boards-api.greenhouse.io/v1/boards/okta/jobs` |
 | CrowdStrike | Workday | ✅ Working | `crowdstrike.wd5.myworkdayjobs.com/wday/cxs/crowdstrike/crowdstrikecareers/jobs` |
-| Rapid7 | Workday | ⚠️ Needs fix | 422 error — Workday board name is wrong. Open rapid7.com/careers → Network tab → find the POST to `*/wday/cxs/*/jobs` → update `WORKDAY_URL` in `scrapers/rapid7.py` |
-| SentinelOne | Workday | ⚠️ Needs fix | 401 error — their Workday board may require auth. Check sentinelone.com/careers Network tab for the actual API. |
-| Microsoft | Custom | ⚠️ Needs fix | 404 — endpoint moved. Open careers.microsoft.com → search "security" → Network tab → find the JSON API call → update `SEARCH_URL` in `scrapers/microsoft.py` |
+| SentinelOne | Greenhouse (custom UI) | ✅ Working | They moved off Workday to a Next.js careers page (`sentinelone.com/jobs`) that server-renders the full Greenhouse job list into the page's RSC payload. No public API — `scrapers/sentinelone.py` extracts the embedded `"jobs":[...]` array instead. |
+| Microsoft | Eightfold (`apply.careers.microsoft.com`) | ✅ Working | Moved off the old `gcsservices` endpoint. Their search API (`/api/apply/v2/jobs`) 403s for unauthenticated requests, so `scrapers/microsoft.py` instead reads the public `/careers/sitemap.xml` job list and parses the `JobPosting` JSON-LD block on each matching job page (same structured data they publish for search engines). |
+| Rapid7 | Radancy/Clinch (`careers.rapid7.com`) | ❌ Blocked | The Workday board is gone; the new job-search endpoint sits behind AWS WAF Bot Control (returns an empty 202 "challenge" response to plain HTTP clients). Individual job pages *are* fetchable and expose `JobPosting` JSON-LD, but there's no public way to enumerate all open jobs without going through the WAF-gated search — the only sitemap available is a small "recently changed pages" list, not the full job board. Not fixed: doing so would require solving/evading the bot challenge, which we intentionally don't do. `run_scrapers.py` reports it in `failed_scrapers` and moves on. |
 
 Companies not yet checked: Google, Amazon, Apple, IBM, Cisco, Palo Alto Networks,
 Fortinet, CyberArk, Tenable, Splunk, Mandiant/Google Cloud Security.
