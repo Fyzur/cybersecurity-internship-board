@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-02T01:50:26.949784+00:00",
+  "last_updated": "2026-08-02T01:53:11.681180+00:00",
   "internships": [
     {
       "company": "CrowdStrike",
@@ -2781,15 +2781,15 @@
   "failed_scrapers": [
     {
       "company": "Microsoft",
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "404 Client Error: Not Found for url: https://gcsservices.careers.microsoft.com/search/api/v1/search?q=security&lc=en_us&pg=1&pgSz=20&o=Date&flt=true"
     },
     {
       "company": "Rapid7",
-      "error": "404 Client Error: Not Found for url: https://api.lever.co/v0/postings/rapid7?mode=json"
+      "error": "422 Client Error: Unprocessable Entity for url: https://rapid7.wd5.myworkdayjobs.com/wday/cxs/rapid7/rapid7-Careers/jobs"
     },
     {
       "company": "SentinelOne",
-      "error": "404 Client Error: Not Found for url: https://api.lever.co/v0/postings/sentinelone?mode=json"
+      "error": "401 Client Error: Unauthorized for url: https://sentinelone.wd1.myworkdayjobs.com/wday/cxs/sentinelone/sentinelonecareers/jobs"
     }
   ]
 }
