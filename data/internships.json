@@ -1,12 +1,36 @@
 {
-  "last_updated": "2026-08-17T00:36:45.577910+00:00",
+  "last_updated": "2026-08-17T08:32:27.460538+00:00",
   "internships": [
     {
       "company": "CrowdStrike",
-      "title": "Security Advisor, Falcon Complete",
-      "location": "6 Locations",
-      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/Australia---Remote-WA/Security-Advisor--Falcon-Complete_R29592",
-      "date_posted": "Posted Yesterday",
+      "title": "Sr. Threat Hunting Intelligence Analyst II",
+      "location": "2 Locations",
+      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/Saudi-Arabia---Remote/Sr-Threat-Hunting-Intelligence-Analyst-II_R29820",
+      "date_posted": "Posted Today",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "CrowdStrike",
+      "title": "Sales Specialist, Falcon Complete & Identity Protection (Remote)",
+      "location": "Spain - Remote",
+      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/Spain---Remote/Sales-Specialist--Falcon-Complete---Identity-Protection--Remote-_R29395",
+      "date_posted": "Posted Today",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "CrowdStrike",
+      "title": "Manager, Engineering - Vulnerability Detection",
+      "location": "India - Pune",
+      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/India---Pune/Manager--Engineering---Vulnerability-Detection_R29752",
+      "date_posted": "Posted Today",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "CrowdStrike",
+      "title": "Principal Product Manager - Next-Gen SIEM (Hybrid)",
+      "location": "United Kingdom - London",
+      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/United-Kingdom---London/Principal-Product-Manager---Next-Gen-SIEM--Hybrid-_R29805",
+      "date_posted": "Posted Today",
       "date_scraped": "2026-08-17"
     },
     {
@@ -14,23 +38,47 @@
       "title": "Staff AI Security Scientist",
       "location": "USA - Remote",
       "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Staff-AI-Security-Scientist_R29827",
-      "date_posted": "Posted 2 Days Ago",
+      "date_posted": "Posted 3 Days Ago",
       "date_scraped": "2026-08-17"
     },
     {
-      "company": "CrowdStrike",
-      "title": "Security Advisor II, Falcon Complete (Remote)",
-      "location": "USA - Remote",
-      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Security-Advisor-II--Falcon-Complete--Remote-_R29652",
-      "date_posted": "Posted 2 Days Ago",
+      "company": "Okta",
+      "title": "Director, Product Management - Integrations",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/8022237?gh_jid=8022237",
+      "date_posted": "2026-08-17",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "Okta",
+      "title": "Manager- Site Reliability Engineering",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/7845385?gh_jid=7845385",
+      "date_posted": "2026-08-17",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "Okta",
+      "title": "Principal Software Engineer ",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/8071508?gh_jid=8071508",
+      "date_posted": "2026-08-17",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "Okta",
+      "title": "Staff Full-Stack Engineer ",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/7471202?gh_jid=7471202",
+      "date_posted": "2026-08-17",
       "date_scraped": "2026-08-17"
     },
     {
       "company": "Microsoft",
-      "title": "Security Researcher II",
-      "location": "Redmond, WA, US; US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556958094-security-researcher-ii-united-states-washington-redmond?domain=microsoft.com",
-      "date_posted": "2026-08-14",
+      "title": "Cloud Solution Architect - Security",
+      "location": "SA",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556946115-cloud-solution-architect-security-saudi-arabia-multiple-locations-multiple-locations?domain=microsoft.com",
+      "date_posted": "2026-08-16",
       "date_scraped": "2026-08-17"
     },
     {
@@ -38,6 +86,22 @@
       "title": "Cloud Solution Architect - Security",
       "location": "Calgary, AB, CA; Goodwood, ON, CA; Vancouver, BC, CA; Edmonton, AB, CA; Montreal, QC, CA",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556826571-cloud-solution-architect-security-canada-alberta-calgary?domain=microsoft.com",
+      "date_posted": "2026-08-14",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Principal Security Research Manager, Applied Threat Intel & Threat Response - Microsoft Security",
+      "location": "Redmond, WA, US; Reston, VA, US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556884665-principal-security-research-manager-applied-threat-intel-threat-response-microsoft-security-united-states-washington-redmond?domain=microsoft.com",
+      "date_posted": "2026-08-14",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Security Researcher II",
+      "location": "Redmond, WA, US; US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556958094-security-researcher-ii-united-states-washington-redmond?domain=microsoft.com",
       "date_posted": "2026-08-14",
       "date_scraped": "2026-08-17"
     },
@@ -54,14 +118,6 @@
       "title": "Security Usage Analyst",
       "location": "US; US",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556958358-security-usage-analyst-united-states-multiple-locations-multiple-locations?domain=microsoft.com",
-      "date_posted": "2026-08-14",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Principal Security Research Manager, Applied Threat Intel & Threat Response - Microsoft Security",
-      "location": "Redmond, WA, US; Reston, VA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556884665-principal-security-research-manager-applied-threat-intel-threat-response-microsoft-security-united-states-washington-redmond?domain=microsoft.com",
       "date_posted": "2026-08-14",
       "date_scraped": "2026-08-17"
     },
@@ -109,7 +165,7 @@
       "company": "Okta",
       "title": "Manager, Engineering",
       "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/8124367?gh_jid=8124367",
+      "url": "https://www.okta.com/company/careers/opportunity/8071500?gh_jid=8071500",
       "date_posted": "2026-08-14",
       "date_scraped": "2026-08-17"
     },
@@ -117,7 +173,7 @@
       "company": "Okta",
       "title": "Manager, Engineering",
       "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/8071500?gh_jid=8071500",
+      "url": "https://www.okta.com/company/careers/opportunity/8124367?gh_jid=8124367",
       "date_posted": "2026-08-14",
       "date_scraped": "2026-08-17"
     },
@@ -171,14 +227,6 @@
     },
     {
       "company": "Okta",
-      "title": "Software Engineer",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/7919336?gh_jid=7919336",
-      "date_posted": "2026-08-14",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Okta",
       "title": "Staff UX Researcher - AI Agents",
       "location": "Bellevue, Washington; Chicago, Illinois; New York, New York; San Francisco, California; Seattle, Washington; Toronto, Ontario, Canada; Washington, DC",
       "url": "https://www.okta.com/company/careers/opportunity/8128490?gh_jid=8128490",
@@ -195,65 +243,9 @@
     },
     {
       "company": "Microsoft",
-      "title": "Cloud Solution Architect - Data Security",
-      "location": "US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556866763-cloud-solution-architect-data-security-united-states-multiple-locations-multiple-locations?domain=microsoft.com",
-      "date_posted": "2026-08-13",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Microsoft",
       "title": "Senior SOC Verification Engineer",
       "location": "Bengaluru, KA, IN",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556958715-senior-soc-verification-engineer-india-karnataka-bangalore?domain=microsoft.com",
-      "date_posted": "2026-08-13",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Principal Security Engineer",
-      "location": "Redmond, WA, US; Mountain View, CA, US; Hillsboro, OR, US; Austin, TX, US; Raleigh, NC, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556924395-principal-security-engineer-united-states-washington-redmond?domain=microsoft.com",
-      "date_posted": "2026-08-13",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Security Operations Engineer II",
-      "location": "Hyderabad, TS, IN",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556961803-security-operations-engineer-ii-india-telangana-hyderabad?domain=microsoft.com",
-      "date_posted": "2026-08-13",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Senior Security Researcher",
-      "location": "Redmond, WA, US; Atlanta, GA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556915381-senior-security-researcher-united-states-washington-redmond?domain=microsoft.com",
-      "date_posted": "2026-08-13",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Solution Area Specialist - Security",
-      "location": "Johannesburg, GP, ZA",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556941085-solution-area-specialist-security-south-africa-gauteng-johannesburg?domain=microsoft.com",
-      "date_posted": "2026-08-13",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Principal Security Engineer",
-      "location": "Redmond, WA, US; Mountain View, CA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556941887-principal-security-engineer-united-states-washington-redmond?domain=microsoft.com",
-      "date_posted": "2026-08-13",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Principal Security Engineering Manager",
-      "location": "Redmond, WA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556961999-principal-security-engineering-manager-united-states-washington-redmond?domain=microsoft.com",
       "date_posted": "2026-08-13",
       "date_scraped": "2026-08-17"
     },
@@ -275,9 +267,65 @@
     },
     {
       "company": "Microsoft",
+      "title": "Principal Security Engineering Manager",
+      "location": "Redmond, WA, US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556961999-principal-security-engineering-manager-united-states-washington-redmond?domain=microsoft.com",
+      "date_posted": "2026-08-13",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Security Operations Engineer II",
+      "location": "Hyderabad, TS, IN",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556961803-security-operations-engineer-ii-india-telangana-hyderabad?domain=microsoft.com",
+      "date_posted": "2026-08-13",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Solution Area Specialist - Security",
+      "location": "Johannesburg, GP, ZA",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556941085-solution-area-specialist-security-south-africa-gauteng-johannesburg?domain=microsoft.com",
+      "date_posted": "2026-08-13",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "Microsoft",
       "title": "Partner Solution Sales Security SMB ASEAN",
       "location": "SG; SG",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556956897-partner-solution-sales-security-smb-asean-singapore-singapore-singapore?domain=microsoft.com",
+      "date_posted": "2026-08-13",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Principal Security Engineer",
+      "location": "Redmond, WA, US; Mountain View, CA, US; Hillsboro, OR, US; Austin, TX, US; Raleigh, NC, US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556924395-principal-security-engineer-united-states-washington-redmond?domain=microsoft.com",
+      "date_posted": "2026-08-13",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Principal Security Engineer",
+      "location": "Redmond, WA, US; Mountain View, CA, US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556941887-principal-security-engineer-united-states-washington-redmond?domain=microsoft.com",
+      "date_posted": "2026-08-13",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Senior Security Researcher",
+      "location": "Redmond, WA, US; Atlanta, GA, US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556915381-senior-security-researcher-united-states-washington-redmond?domain=microsoft.com",
+      "date_posted": "2026-08-13",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Cloud Solution Architect - Data Security",
+      "location": "US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556866763-cloud-solution-architect-data-security-united-states-multiple-locations-multiple-locations?domain=microsoft.com",
       "date_posted": "2026-08-13",
       "date_scraped": "2026-08-17"
     },
@@ -371,17 +419,9 @@
     },
     {
       "company": "Microsoft",
-      "title": "Senior Hardware Security Engineer",
-      "location": "Redmond, WA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556962243-senior-hardware-security-engineer-united-states-washington-redmond?domain=microsoft.com",
-      "date_posted": "2026-08-12",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Security Sales Team Manager",
-      "location": "Seoul, Seoul, KR",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556959335-security-sales-team-manager-korea-seoul-seoul?domain=microsoft.com",
+      "title": "Principal AI Security Researcher",
+      "location": "Redmond, WA, US; Reston, VA, US; Mountain View, CA, US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556953574-principal-ai-security-researcher-united-states-washington-redmond?domain=microsoft.com",
       "date_posted": "2026-08-12",
       "date_scraped": "2026-08-17"
     },
@@ -395,17 +435,17 @@
     },
     {
       "company": "Microsoft",
-      "title": "Principal AI Security Researcher",
-      "location": "Redmond, WA, US; Reston, VA, US; Mountain View, CA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556953574-principal-ai-security-researcher-united-states-washington-redmond?domain=microsoft.com",
+      "title": "Technical Support Engineer - Security (Cloud Protection) - Korean Speaker",
+      "location": "JP",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556943149-technical-support-engineer-security-compliance-cloud-protection-korean-speaker-japan-multiple-locations-multiple-locations?domain=microsoft.com",
       "date_posted": "2026-08-12",
       "date_scraped": "2026-08-17"
     },
     {
       "company": "Microsoft",
-      "title": "Technical Support Engineer - Security & Compliance (Cloud Protection) - Korean Speaker",
-      "location": "JP",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556943149-technical-support-engineer-security-compliance-cloud-protection-korean-speaker-japan-multiple-locations-multiple-locations?domain=microsoft.com",
+      "title": "Senior Hardware Security Engineer",
+      "location": "Redmond, WA, US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556962243-senior-hardware-security-engineer-united-states-washington-redmond?domain=microsoft.com",
       "date_posted": "2026-08-12",
       "date_scraped": "2026-08-17"
     },
@@ -414,6 +454,14 @@
       "title": "Solution Area Specialist - Security",
       "location": "NG",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556946126-solution-area-specialist-security-nigeria-multiple-locations-multiple-locations?domain=microsoft.com",
+      "date_posted": "2026-08-12",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Security Sales Team Manager",
+      "location": "Seoul, Seoul, KR",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556959335-security-sales-team-manager-korea-seoul-seoul?domain=microsoft.com",
       "date_posted": "2026-08-12",
       "date_scraped": "2026-08-17"
     },
@@ -539,14 +587,6 @@
     },
     {
       "company": "Okta",
-      "title": "Staff Full-Stack Engineer ",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/7471202?gh_jid=7471202",
-      "date_posted": "2026-08-12",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Okta",
       "title": "Staff Product Designer (Auth0) ",
       "location": "New York, New York; San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/8078764?gh_jid=8078764",
@@ -555,9 +595,17 @@
     },
     {
       "company": "Microsoft",
-      "title": "Principal Security Research Manager",
-      "location": "Redmond, WA, US; Redmond, WA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556943181-principal-security-research-manager-united-states-washington-redmond?domain=microsoft.com",
+      "title": "Principal Security Researcher - Microsoft Defender",
+      "location": "IL",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556959366-principal-security-researcher-microsoft-defender-israel-multiple-locations-multiple-locations?domain=microsoft.com",
+      "date_posted": "2026-08-11",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Security Researcher II",
+      "location": "Redmond, WA, US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556955881-security-researcher-ii-united-states-washington-redmond?domain=microsoft.com",
       "date_posted": "2026-08-11",
       "date_scraped": "2026-08-17"
     },
@@ -579,25 +627,17 @@
     },
     {
       "company": "Microsoft",
-      "title": "Principal Security Researcher - Microsoft Defender",
-      "location": "IL",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556959366-principal-security-researcher-microsoft-defender-israel-multiple-locations-multiple-locations?domain=microsoft.com",
-      "date_posted": "2026-08-11",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Security Researcher II",
-      "location": "Redmond, WA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556955881-security-researcher-ii-united-states-washington-redmond?domain=microsoft.com",
-      "date_posted": "2026-08-11",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Microsoft",
       "title": "Director, Executive Communications - Security",
       "location": "Redmond, WA, US",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556959264-director-executive-communications-security-united-states-washington-redmond?domain=microsoft.com",
+      "date_posted": "2026-08-11",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Principal Security Research Manager",
+      "location": "Redmond, WA, US; Redmond, WA, US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556943181-principal-security-research-manager-united-states-washington-redmond?domain=microsoft.com",
       "date_posted": "2026-08-11",
       "date_scraped": "2026-08-17"
     },
@@ -724,16 +764,16 @@
     {
       "company": "Okta",
       "title": "Principal Applied AI/ML Scientist (Auth0 Lab)",
-      "location": "Bellevue, Washington; Chicago, Illinois; New York, New York; San Francisco, California; Washington, DC",
-      "url": "https://www.okta.com/company/careers/opportunity/8031281?gh_jid=8031281",
+      "location": "Toronto, Ontario, Canada",
+      "url": "https://www.okta.com/company/careers/opportunity/8031355?gh_jid=8031355",
       "date_posted": "2026-08-10",
       "date_scraped": "2026-08-17"
     },
     {
       "company": "Okta",
       "title": "Principal Applied AI/ML Scientist (Auth0 Lab)",
-      "location": "Toronto, Ontario, Canada",
-      "url": "https://www.okta.com/company/careers/opportunity/8031355?gh_jid=8031355",
+      "location": "Bellevue, Washington; Chicago, Illinois; New York, New York; San Francisco, California; Washington, DC",
+      "url": "https://www.okta.com/company/careers/opportunity/8031281?gh_jid=8031281",
       "date_posted": "2026-08-10",
       "date_scraped": "2026-08-17"
     },
@@ -811,6 +851,22 @@
     },
     {
       "company": "Microsoft",
+      "title": "Solution Engineering Sales Manager - Security",
+      "location": "Toronto, ON, CA",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556957382-solution-engineering-sales-manager-security-canada-ontario-toronto?domain=microsoft.com",
+      "date_posted": "2026-08-07",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Principal Security Engineer Manager",
+      "location": "Redmond, WA, US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556950856-principal-security-engineer-manager-united-states-washington-redmond?domain=microsoft.com",
+      "date_posted": "2026-08-07",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "Microsoft",
       "title": "Data and AI Security Consultant",
       "location": "Hyderabad, TS, IN; Bengaluru, KA, IN; Noida, UP, IN",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556942258-data-and-ai-security-consultant-india-telangana-hyderabad?domain=microsoft.com",
@@ -830,30 +886,6 @@
       "title": "Data and AI Security Consultant",
       "location": "Hyderabad, TS, IN",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556942264-data-and-ai-security-consultant-india-telangana-hyderabad?domain=microsoft.com",
-      "date_posted": "2026-08-07",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Principal Security Engineer Manager",
-      "location": "Redmond, WA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556950856-principal-security-engineer-manager-united-states-washington-redmond?domain=microsoft.com",
-      "date_posted": "2026-08-07",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Solution Engineering Sales Manager - Security",
-      "location": "Toronto, ON, CA",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556957382-solution-engineering-sales-manager-security-canada-ontario-toronto?domain=microsoft.com",
-      "date_posted": "2026-08-07",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Principal Product Manager, Agent 365 Security & Governance",
-      "location": "Redmond, WA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556916180-principal-product-manager-agent-365-security-governance-united-states-washington-redmond?domain=microsoft.com",
       "date_posted": "2026-08-07",
       "date_scraped": "2026-08-17"
     },
@@ -947,17 +979,17 @@
     },
     {
       "company": "Microsoft",
-      "title": "Principal Applied Threat Intelligence Manager",
-      "location": "Redmond, WA, US; Reston, VA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556870681-principal-applied-threat-intelligence-manager-united-states-washington-redmond?domain=microsoft.com",
+      "title": "Security Cloud Solution Architect- CTJ - Poly",
+      "location": "Washington, DC, US; Reston, VA, US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556885286-security-cloud-solution-architect-ctj-poly-united-states-district-of-columbia-washington-d-c-?domain=microsoft.com",
       "date_posted": "2026-08-06",
       "date_scraped": "2026-08-17"
     },
     {
       "company": "Microsoft",
-      "title": "Security Cloud Solution Architect- CTJ - Poly",
-      "location": "Washington, DC, US; Reston, VA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556885286-security-cloud-solution-architect-ctj-poly-united-states-district-of-columbia-washington-d-c-?domain=microsoft.com",
+      "title": "Principal Applied Threat Intelligence Manager",
+      "location": "Redmond, WA, US; Reston, VA, US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556870681-principal-applied-threat-intelligence-manager-united-states-washington-redmond?domain=microsoft.com",
       "date_posted": "2026-08-06",
       "date_scraped": "2026-08-17"
     },
@@ -979,9 +1011,9 @@
     },
     {
       "company": "Microsoft",
-      "title": "Security Solution Engineering Technical Skilling Strategy Lead",
-      "location": "US; US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556953730-security-solution-engineering-technical-skilling-strategy-lead-united-states-multiple-locations-multiple-locations?domain=microsoft.com",
+      "title": "Partner Solution Architect--Security",
+      "location": "TW",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556955788-partner-solution-architect-security-taiwan-multiple-locations-multiple-locations?domain=microsoft.com",
       "date_posted": "2026-08-06",
       "date_scraped": "2026-08-17"
     },
@@ -1003,17 +1035,17 @@
     },
     {
       "company": "Microsoft",
-      "title": "Security Partner Strategy Lead",
+      "title": "Security Solution Engineering Technical Skilling Strategy Lead",
       "location": "US; US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556953736-security-partner-strategy-lead-united-states-multiple-locations-multiple-locations?domain=microsoft.com",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556953730-security-solution-engineering-technical-skilling-strategy-lead-united-states-multiple-locations-multiple-locations?domain=microsoft.com",
       "date_posted": "2026-08-06",
       "date_scraped": "2026-08-17"
     },
     {
       "company": "Microsoft",
-      "title": "Partner Solution Architect--Security",
-      "location": "TW",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556955788-partner-solution-architect-security-taiwan-multiple-locations-multiple-locations?domain=microsoft.com",
+      "title": "Security Partner Strategy Lead",
+      "location": "US; US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556953736-security-partner-strategy-lead-united-states-multiple-locations-multiple-locations?domain=microsoft.com",
       "date_posted": "2026-08-06",
       "date_scraped": "2026-08-17"
     },
@@ -1086,14 +1118,6 @@
       "title": "Senior Product Manager, Auth0 Platform Infrastructure",
       "location": "Toronto, Ontario, Canada",
       "url": "https://www.okta.com/company/careers/opportunity/7993489?gh_jid=7993489",
-      "date_posted": "2026-08-06",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Okta",
-      "title": "Senior Software Engineer",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/7783585?gh_jid=7783585",
       "date_posted": "2026-08-06",
       "date_scraped": "2026-08-17"
     },
@@ -1315,17 +1339,17 @@
     },
     {
       "company": "Microsoft",
-      "title": "Datacenter Security Operations Manager.",
-      "location": "Eemshaven, GR, NL",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556914751-datacenter-security-operations-manager--netherlands-groningen-eemshaven?domain=microsoft.com",
+      "title": "Senior SOC Debug Verification Engineer",
+      "location": "Bengaluru, KA, IN; Hyderabad, TS, IN; Noida, UP, IN",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556952150-senior-soc-debug-verification-engineer-india-karnataka-bangalore?domain=microsoft.com",
       "date_posted": "2026-08-04",
       "date_scraped": "2026-08-17"
     },
     {
       "company": "Microsoft",
-      "title": "Senior SOC Debug Verification Engineer",
-      "location": "Bengaluru, KA, IN; Hyderabad, TS, IN; Noida, UP, IN",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556952150-senior-soc-debug-verification-engineer-india-karnataka-bangalore?domain=microsoft.com",
+      "title": "Datacenter Security Operations Manager.",
+      "location": "Eemshaven, GR, NL",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556914751-datacenter-security-operations-manager--netherlands-groningen-eemshaven?domain=microsoft.com",
       "date_posted": "2026-08-04",
       "date_scraped": "2026-08-17"
     },
@@ -1571,17 +1595,17 @@
     },
     {
       "company": "Microsoft",
-      "title": "Senior Applied Threat Intelligence Analyst - Microsoft Security Threat Response",
-      "location": "Redmond, WA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556867420-senior-applied-threat-intelligence-analyst-microsoft-security-threat-response-united-states-washington-redmond?domain=microsoft.com",
+      "title": "SoC HW (Digital, Analog or PnP) Validation Engineer",
+      "location": "Hillsboro, OR, US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556947838-soc-hw-digital-analog-or-pnp-validation-engineer-united-states-oregon-hillsboro?domain=microsoft.com",
       "date_posted": "2026-07-31",
       "date_scraped": "2026-08-17"
     },
     {
       "company": "Microsoft",
-      "title": "SoC HW (Digital, Analog or PnP) Validation Engineer",
-      "location": "Hillsboro, OR, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556947838-soc-hw-digital-analog-or-pnp-validation-engineer-united-states-oregon-hillsboro?domain=microsoft.com",
+      "title": "Senior Applied Threat Intelligence Analyst - Microsoft Security Threat Response",
+      "location": "Redmond, WA, US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556867420-senior-applied-threat-intelligence-analyst-microsoft-security-threat-response-united-states-washington-redmond?domain=microsoft.com",
       "date_posted": "2026-07-31",
       "date_scraped": "2026-08-17"
     },
@@ -2020,16 +2044,16 @@
     {
       "company": "Okta",
       "title": "Principal Forward Deployed Engineer",
-      "location": "Singapore",
-      "url": "https://www.okta.com/company/careers/opportunity/7980649?gh_jid=7980649",
+      "location": "London, United Kingdom",
+      "url": "https://www.okta.com/company/careers/opportunity/8004037?gh_jid=8004037",
       "date_posted": "2026-07-31",
       "date_scraped": "2026-08-17"
     },
     {
       "company": "Okta",
       "title": "Principal Forward Deployed Engineer",
-      "location": "London, United Kingdom",
-      "url": "https://www.okta.com/company/careers/opportunity/8004037?gh_jid=8004037",
+      "location": "Singapore",
+      "url": "https://www.okta.com/company/careers/opportunity/7980649?gh_jid=7980649",
       "date_posted": "2026-07-31",
       "date_scraped": "2026-08-17"
     },
@@ -2148,16 +2172,16 @@
     {
       "company": "Okta",
       "title": "Regional Sales Manager, Enterprise (Auth0)",
-      "location": "Boston, Massachusetts; New Jersey; New York, New York",
-      "url": "https://www.okta.com/company/careers/opportunity/7466556?gh_jid=7466556",
+      "location": "Chicago, Illinois",
+      "url": "https://www.okta.com/company/careers/opportunity/7963925?gh_jid=7963925",
       "date_posted": "2026-07-31",
       "date_scraped": "2026-08-17"
     },
     {
       "company": "Okta",
       "title": "Regional Sales Manager, Enterprise (Auth0)",
-      "location": "Chicago, Illinois",
-      "url": "https://www.okta.com/company/careers/opportunity/7963925?gh_jid=7963925",
+      "location": "Boston, Massachusetts; New Jersey; New York, New York",
+      "url": "https://www.okta.com/company/careers/opportunity/7466556?gh_jid=7466556",
       "date_posted": "2026-07-31",
       "date_scraped": "2026-08-17"
     },
@@ -2172,16 +2196,16 @@
     {
       "company": "Okta",
       "title": "Sales Development Representative",
-      "location": "Dublin, Ireland",
-      "url": "https://www.okta.com/company/careers/opportunity/8067420?gh_jid=8067420",
+      "location": "Sydney, Australia",
+      "url": "https://www.okta.com/company/careers/opportunity/7936541?gh_jid=7936541",
       "date_posted": "2026-07-31",
       "date_scraped": "2026-08-17"
     },
     {
       "company": "Okta",
       "title": "Sales Development Representative",
-      "location": "Sydney, Australia",
-      "url": "https://www.okta.com/company/careers/opportunity/7936541?gh_jid=7936541",
+      "location": "Dublin, Ireland",
+      "url": "https://www.okta.com/company/careers/opportunity/8067420?gh_jid=8067420",
       "date_posted": "2026-07-31",
       "date_scraped": "2026-08-17"
     },
@@ -2197,7 +2221,7 @@
       "company": "Okta",
       "title": "Sales Development Representative - German",
       "location": "Dublin, Ireland",
-      "url": "https://www.okta.com/company/careers/opportunity/7645881?gh_jid=7645881",
+      "url": "https://www.okta.com/company/careers/opportunity/7920579?gh_jid=7920579",
       "date_posted": "2026-07-31",
       "date_scraped": "2026-08-17"
     },
@@ -2205,7 +2229,7 @@
       "company": "Okta",
       "title": "Sales Development Representative - German",
       "location": "Dublin, Ireland",
-      "url": "https://www.okta.com/company/careers/opportunity/7920579?gh_jid=7920579",
+      "url": "https://www.okta.com/company/careers/opportunity/7645881?gh_jid=7645881",
       "date_posted": "2026-07-31",
       "date_scraped": "2026-08-17"
     },
@@ -2278,14 +2302,6 @@
       "title": "Senior Engineer, FGA Developer Tooling",
       "location": "Bengaluru, India",
       "url": "https://www.okta.com/company/careers/opportunity/7780942?gh_jid=7780942",
-      "date_posted": "2026-07-31",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Okta",
-      "title": "Senior Engineering Manager",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/8037616?gh_jid=8037616",
       "date_posted": "2026-07-31",
       "date_scraped": "2026-08-17"
     },
@@ -2964,6 +2980,14 @@
     {
       "company": "Okta",
       "title": "Staff Software Engineer ",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/8018310?gh_jid=8018310",
+      "date_posted": "2026-07-31",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "Okta",
+      "title": "Staff Software Engineer ",
       "location": "Toronto, Ontario, Canada",
       "url": "https://www.okta.com/company/careers/opportunity/7939834?gh_jid=7939834",
       "date_posted": "2026-07-31",
@@ -2979,14 +3003,6 @@
     },
     {
       "company": "Okta",
-      "title": "Staff Software Engineer ",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/8018310?gh_jid=8018310",
-      "date_posted": "2026-07-31",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Okta",
       "title": "Staff Software Engineer, AI-Core (Federal)",
       "location": "San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/7917002?gh_jid=7917002",
@@ -2996,16 +3012,16 @@
     {
       "company": "Okta",
       "title": "Staff Software Engineer - Backend",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/8007085?gh_jid=8007085",
+      "location": "Toronto, Ontario, Canada",
+      "url": "https://www.okta.com/company/careers/opportunity/7917929?gh_jid=7917929",
       "date_posted": "2026-07-31",
       "date_scraped": "2026-08-17"
     },
     {
       "company": "Okta",
       "title": "Staff Software Engineer - Backend",
-      "location": "Toronto, Ontario, Canada",
-      "url": "https://www.okta.com/company/careers/opportunity/7917929?gh_jid=7917929",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/8007085?gh_jid=8007085",
       "date_posted": "2026-07-31",
       "date_scraped": "2026-08-17"
     },
@@ -3164,16 +3180,16 @@
     {
       "company": "Okta",
       "title": "Strategic Account Executive, Auth0",
-      "location": "Chicago, Illinois; Minnesota; Saint Louis, Missouri; Wisconsin",
-      "url": "https://www.okta.com/company/careers/opportunity/7465810?gh_jid=7465810",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7463779?gh_jid=7463779",
       "date_posted": "2026-07-31",
       "date_scraped": "2026-08-17"
     },
     {
       "company": "Okta",
       "title": "Strategic Account Executive, Auth0",
-      "location": "San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/7463779?gh_jid=7463779",
+      "location": "Chicago, Illinois; Minnesota; Saint Louis, Missouri; Wisconsin",
+      "url": "https://www.okta.com/company/careers/opportunity/7465810?gh_jid=7465810",
       "date_posted": "2026-07-31",
       "date_scraped": "2026-08-17"
     },
@@ -3315,17 +3331,17 @@
     },
     {
       "company": "Microsoft",
-      "title": "Customer Success-FastTrack Identity",
-      "location": "CR",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556943834-customer-success-fasttrack-identity-costa-rica-multiple-locations-multiple-locations?domain=microsoft.com",
+      "title": "Datacenter Security Operations Manager",
+      "location": "Luxembourg City, Luxembourg District, LU",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556947944-datacenter-security-operations-manager-luxembourg-luxembourg-luxembourg?domain=microsoft.com",
       "date_posted": "2026-07-29",
       "date_scraped": "2026-08-17"
     },
     {
       "company": "Microsoft",
-      "title": "Datacenter Security Operations Manager",
-      "location": "Luxembourg City, Luxembourg District, LU",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556947944-datacenter-security-operations-manager-luxembourg-luxembourg-luxembourg?domain=microsoft.com",
+      "title": "Customer Success-FastTrack Identity",
+      "location": "CR",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556943834-customer-success-fasttrack-identity-costa-rica-multiple-locations-multiple-locations?domain=microsoft.com",
       "date_posted": "2026-07-29",
       "date_scraped": "2026-08-17"
     },
@@ -3363,17 +3379,17 @@
     },
     {
       "company": "Microsoft",
-      "title": "Technical Support Engineer - Azure Identity - Korean Speaker",
-      "location": "JP",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556943132-technical-support-engineer-azure-identity-korean-speaker-japan-multiple-locations-multiple-locations?domain=microsoft.com",
+      "title": "Principal Security Architect - Security Assurance",
+      "location": "US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556939531-principal-security-architect-security-assurance-united-states-multiple-locations-multiple-locations?domain=microsoft.com",
       "date_posted": "2026-07-24",
       "date_scraped": "2026-08-17"
     },
     {
       "company": "Microsoft",
-      "title": "Principal Security Architect - Security Assurance",
-      "location": "US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556939531-principal-security-architect-security-assurance-united-states-multiple-locations-multiple-locations?domain=microsoft.com",
+      "title": "Technical Support Engineer - Azure Identity - Korean Speaker",
+      "location": "JP",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556943132-technical-support-engineer-azure-identity-korean-speaker-japan-multiple-locations-multiple-locations?domain=microsoft.com",
       "date_posted": "2026-07-24",
       "date_scraped": "2026-08-17"
     },
@@ -3423,14 +3439,6 @@
       "location": "US",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556866771-solution-engineer-data-security-united-states-multiple-locations-multiple-locations?domain=microsoft.com",
       "date_posted": "2026-07-23",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Activation GTM - Security",
-      "location": "Tokyo, Tokyo, JP",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556941618-activation-gtm-security-japan-tokyo-to-tokyo?domain=microsoft.com",
-      "date_posted": "2026-07-22",
       "date_scraped": "2026-08-17"
     },
     {
@@ -3499,17 +3507,17 @@
     },
     {
       "company": "Microsoft",
-      "title": "Datacenter Security Operations Manager",
-      "location": "Osaka, Osaka, JP",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556927704-datacenter-security-operations-manager-japan-osaka-fu-osaka?domain=microsoft.com",
+      "title": "Sr. Security Delivery Expert",
+      "location": "Redmond, WA, US; Reston, VA, US; Palo Alto, CA, US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556914924-sr-security-delivery-expert-united-states-washington-redmond?domain=microsoft.com",
       "date_posted": "2026-07-13",
       "date_scraped": "2026-08-17"
     },
     {
       "company": "Microsoft",
-      "title": "Sr. Security Delivery Expert",
-      "location": "Redmond, WA, US; Reston, VA, US; Palo Alto, CA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556914924-sr-security-delivery-expert-united-states-washington-redmond?domain=microsoft.com",
+      "title": "Datacenter Security Operations Manager",
+      "location": "Osaka, Osaka, JP",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556927704-datacenter-security-operations-manager-japan-osaka-fu-osaka?domain=microsoft.com",
       "date_posted": "2026-07-13",
       "date_scraped": "2026-08-17"
     },
@@ -3548,6 +3556,14 @@
     {
       "company": "SentinelOne",
       "title": "Staff Software Engineer - C++ Endpoint Security, Collection Engineering ",
+      "location": "Prague, Czech Republic",
+      "url": "https://www.sentinelone.com/jobs/?gh_jid=7792556003",
+      "date_posted": "2026-07-03",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "SentinelOne",
+      "title": "Staff Software Engineer - C++ Endpoint Security, Collection Engineering ",
       "location": "Brno, South Moravian, Czech Republic",
       "url": "https://www.sentinelone.com/jobs/?gh_jid=7792819003",
       "date_posted": "2026-07-03",
@@ -3558,14 +3574,6 @@
       "title": "Staff Software Engineer - C++ Endpoint Security, Collection Engineering ",
       "location": "Slovakia",
       "url": "https://www.sentinelone.com/jobs/?gh_jid=7792822003",
-      "date_posted": "2026-07-03",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "SentinelOne",
-      "title": "Staff Software Engineer - C++ Endpoint Security, Collection Engineering ",
-      "location": "Prague, Czech Republic",
-      "url": "https://www.sentinelone.com/jobs/?gh_jid=7792556003",
       "date_posted": "2026-07-03",
       "date_scraped": "2026-08-17"
     },
@@ -3583,14 +3591,6 @@
       "location": "US",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556866764-cloud-solution-architect-security-united-states-multiple-locations-multiple-locations?domain=microsoft.com",
       "date_posted": "2026-07-02",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Digital Solution Specialist--Security",
-      "location": "Beijing, Beijing, CN; Shanghai, Shanghai, CN; Shenzhen, Guangdong Province, CN",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556912777-digital-solution-specialist-security-china-beijing-beijing?domain=microsoft.com",
-      "date_posted": "2026-07-01",
       "date_scraped": "2026-08-17"
     },
     {
@@ -3700,16 +3700,16 @@
     {
       "company": "SentinelOne",
       "title": "Senior Software Engineer - Low Level C++ - Linux & Cloud Security",
-      "location": "Slovakia",
-      "url": "https://www.sentinelone.com/jobs/?gh_jid=7561107003",
+      "location": "Czech Republic",
+      "url": "https://www.sentinelone.com/jobs/?gh_jid=7561109003",
       "date_posted": "2025-12-15",
       "date_scraped": "2026-08-17"
     },
     {
       "company": "SentinelOne",
       "title": "Senior Software Engineer - Low Level C++ - Linux & Cloud Security",
-      "location": "Prague, Czech Republic",
-      "url": "https://www.sentinelone.com/jobs/?gh_jid=7561106003",
+      "location": "Slovakia",
+      "url": "https://www.sentinelone.com/jobs/?gh_jid=7561107003",
       "date_posted": "2025-12-15",
       "date_scraped": "2026-08-17"
     },
@@ -3724,8 +3724,8 @@
     {
       "company": "SentinelOne",
       "title": "Senior Software Engineer - Low Level C++ - Linux & Cloud Security",
-      "location": "Czech Republic",
-      "url": "https://www.sentinelone.com/jobs/?gh_jid=7561109003",
+      "location": "Prague, Czech Republic",
+      "url": "https://www.sentinelone.com/jobs/?gh_jid=7561106003",
       "date_posted": "2025-12-15",
       "date_scraped": "2026-08-17"
     },
@@ -3740,8 +3740,8 @@
     {
       "company": "SentinelOne",
       "title": "Staff Windows Low Level C++ Engineer - Endpoint security",
-      "location": "Spain",
-      "url": "https://www.sentinelone.com/jobs/?gh_jid=6647497003",
+      "location": "Italy",
+      "url": "https://www.sentinelone.com/jobs/?gh_jid=6647498003",
       "date_posted": "2025-07-14",
       "date_scraped": "2026-08-17"
     },
@@ -3756,17 +3756,9 @@
     {
       "company": "SentinelOne",
       "title": "Staff Windows Low Level C++ Engineer - Endpoint security",
-      "location": "Italy",
-      "url": "https://www.sentinelone.com/jobs/?gh_jid=6647498003",
+      "location": "Spain",
+      "url": "https://www.sentinelone.com/jobs/?gh_jid=6647497003",
       "date_posted": "2025-07-14",
-      "date_scraped": "2026-08-17"
-    },
-    {
-      "company": "SentinelOne",
-      "title": "Staff Windows Low Level C++ Engineer - Endpoint security",
-      "location": "Czech Republic",
-      "url": "https://www.sentinelone.com/jobs/?gh_jid=6629340003",
-      "date_posted": "2025-07-09",
       "date_scraped": "2026-08-17"
     },
     {
@@ -3790,6 +3782,14 @@
       "title": "Staff Windows Low Level C++ Engineer - Endpoint security",
       "location": "Slovakia",
       "url": "https://www.sentinelone.com/jobs/?gh_jid=6639641003",
+      "date_posted": "2025-07-09",
+      "date_scraped": "2026-08-17"
+    },
+    {
+      "company": "SentinelOne",
+      "title": "Staff Windows Low Level C++ Engineer - Endpoint security",
+      "location": "Czech Republic",
+      "url": "https://www.sentinelone.com/jobs/?gh_jid=6629340003",
       "date_posted": "2025-07-09",
       "date_scraped": "2026-08-17"
     }
