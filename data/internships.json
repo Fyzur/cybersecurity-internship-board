@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-31T03:06:26.199462+00:00",
+  "last_updated": "2026-10-31T14:00:58.053574+00:00",
   "internships": [
     {
       "company": "CrowdStrike",
       "title": "Incident Response Principal Consultant (Remote)",
       "location": "USA - Remote",
       "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Incident-Response-Principal-Consultant--Remote-_R30546",
-      "date_posted": "Posted Today",
+      "date_posted": "Posted Yesterday",
       "date_scraped": "2026-10-31"
     },
     {
@@ -14,7 +14,7 @@
       "title": "Threat Analyst \u2013 Machine Learning Operations & Detection Efficacy (Remote)",
       "location": "USA - Wenatchee, WA",
       "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Wenatchee-WA/Threat-Analyst---Machine-Learning-Operations---Detection-Efficacy--Remote-_R29947-1",
-      "date_posted": "Posted Today",
+      "date_posted": "Posted Yesterday",
       "date_scraped": "2026-10-31"
     },
     {
@@ -22,7 +22,7 @@
       "title": "Sr Software Engineer, Cloud - Vulnerability Management (Hybrid)",
       "location": "USA - Sunnyvale, CA",
       "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Sunnyvale-CA/Sr-Engineer---Risk-Platform--Hybrid--Sunnyvale-_R29171",
-      "date_posted": "Posted 11 Days Ago",
+      "date_posted": "Posted 12 Days Ago",
       "date_scraped": "2026-10-31"
     },
     {
@@ -196,7 +196,7 @@
     {
       "company": "Microsoft",
       "title": "Customer Security Officer (Field CISO)",
-      "location": "Unknown",
+      "location": "Sydney, NSW, AU; Canberra, ACT, AU; Melbourne, VIC, AU; Brisbane, QLD, AU",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393557050188-customer-security-officer-field-ciso--?domain=microsoft.com",
       "date_posted": "2026-10-29",
       "date_scraped": "2026-10-31"
@@ -886,14 +886,6 @@
       "title": "Security Solution Specialist\uff08\u30a8\u30f3\u30bf\u30fc\u30d7\u30e9\u30a4\u30ba\u88fd\u9020\u696d\u5411\u3051\u306e\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30bd\u30ea\u30e5\u30fc\u30b7\u30e7\u30f3\u55b6\u696d\uff09",
       "location": "Tokyo, Tokyo, JP; Tokyo, JP",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393557044989-security-solution-specialist%EF%BC%88%E3%82%A8%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%97%E3%83%A9%E3%82%A4%E3%82%BA%E8%A3%BD%E9%80%A0%E6%A5%AD%E5%90%91%E3%81%91%E3%81%AE%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%82%BD%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E5%96%B6%E6%A5%AD%EF%BC%89-japan-tokyo-to-tokyo?domain=microsoft.com",
-      "date_posted": "2026-10-23",
-      "date_scraped": "2026-10-31"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Senior Security Solution Engineer",
-      "location": "Reston, VA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393557037567-senior-security-solution-engineer-united-states-virginia-reston?domain=microsoft.com",
       "date_posted": "2026-10-23",
       "date_scraped": "2026-10-31"
     },
@@ -1635,14 +1627,6 @@
     },
     {
       "company": "Microsoft",
-      "title": "Senior Product Marketing Manager, Competitive Intelligence - Identity and Network Security",
-      "location": "Redmond, WA, US; Mountain View, CA, US; New York, NY, US; Atlanta, GA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393557040474-senior-product-marketing-manager-competitive-intelligence-identity-and-network-security-united-states-washington-redmond?domain=microsoft.com",
-      "date_posted": "2026-10-16",
-      "date_scraped": "2026-10-31"
-    },
-    {
-      "company": "Microsoft",
       "title": "Senior Director of Product Marketing for Agentic Security",
       "location": "Redmond, WA, US; Atlanta, GA, US; Mountain View, CA, US; New York, NY, US",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393557040559-senior-director-of-product-marketing-for-agentic-security-united-states-washington-redmond?domain=microsoft.com",
@@ -2038,14 +2022,6 @@
       "title": "Senior SOC Integration Engineer",
       "location": "Raleigh, NC, US; Austin, TX, US; Mountain View, CA, US; Hillsboro, OR, US; Redmond, WA, US",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393557038889-senior-soc-integration-engineer-united-states-north-carolina-raleigh?domain=microsoft.com",
-      "date_posted": "2026-10-14",
-      "date_scraped": "2026-10-31"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Data Center Security Operations Manager",
-      "location": "Boydton, VA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393557016492-data-center-security-operations-manager-united-states-virginia-boydton?domain=microsoft.com",
       "date_posted": "2026-10-14",
       "date_scraped": "2026-10-31"
     },
