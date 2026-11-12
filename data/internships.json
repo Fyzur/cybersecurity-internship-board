@@ -1,28 +1,12 @@
 {
-  "last_updated": "2026-11-12T04:46:46.465419+00:00",
+  "last_updated": "2026-11-12T16:27:28.555618+00:00",
   "internships": [
-    {
-      "company": "CrowdStrike",
-      "title": "Sr Software Engineer, Cloud - Vulnerability Management (Hybrid)",
-      "location": "USA - Sunnyvale, CA",
-      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Sunnyvale-CA/Sr-Engineer---Risk-Platform--Hybrid--Sunnyvale-_R29171",
-      "date_posted": "Posted Yesterday",
-      "date_scraped": "2026-11-12"
-    },
-    {
-      "company": "CrowdStrike",
-      "title": "Engineer II - Vulnerability Detection",
-      "location": "India - Pune",
-      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/India---Pune/Engineer-II---Vulnerability-Detection_R29202",
-      "date_posted": "Posted Today",
-      "date_scraped": "2026-11-12"
-    },
     {
       "company": "CrowdStrike",
       "title": "Sr. MacOS Sensor Engineer, Data Security (Hybrid, ISR)",
       "location": "Israel - Tel Aviv",
       "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/Israel---Tel-Aviv/Sr-MacOS-Sensor-Engineer--Data-Security--Hybrid--ISR-_R30424",
-      "date_posted": "Posted Today",
+      "date_posted": "Posted Yesterday",
       "date_scraped": "2026-11-12"
     },
     {
@@ -30,22 +14,22 @@
       "title": "Engagement Lead, Incident Response Partner Services (Remote)",
       "location": "United Kingdom - Remote",
       "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/United-Kingdom---Remote/Engagement-Lead--Incident-Response-Partner-Services--Remote-_R30550",
+      "date_posted": "Posted Yesterday",
+      "date_scraped": "2026-11-12"
+    },
+    {
+      "company": "CrowdStrike",
+      "title": "Specialist, NG SIEM Federal/Alliances (Remote, DC /VA))",
+      "location": "USA - Remote, DC",
+      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote-DC/Specialist-Sales-Manager--NG-SIEM--Remote--Southeast-_R30284-1",
       "date_posted": "Posted Today",
       "date_scraped": "2026-11-12"
     },
     {
       "company": "CrowdStrike",
-      "title": "Software Engineering Manager, Identity Protection (Hybrid, Bucharest)",
-      "location": "Romania - Bucharest",
-      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/Romania---Bucharest/Software-Engineer---Cloud--Identity-Protection--Hybrid--ISR-_R29780",
-      "date_posted": "Posted Today",
-      "date_scraped": "2026-11-12"
-    },
-    {
-      "company": "CrowdStrike",
-      "title": "Sr. Software Engineer - Cloud, Identity Protection (Hybrid, ISR)",
-      "location": "Israel - Tel Aviv",
-      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/Israel---Tel-Aviv/Sr-Software-Engineer---Cloud--Identity-Protection--Hybrid--ISR-_R29783",
+      "title": "Engagement Lead, Incident Response Partner Services (Remote)",
+      "location": "USA - Remote",
+      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Delivery-Manager--Incident-Response-Partner-Services--Remote-_R30549",
       "date_posted": "Posted Today",
       "date_scraped": "2026-11-12"
     },
@@ -59,10 +43,74 @@
     },
     {
       "company": "CrowdStrike",
-      "title": "Sr. Security Engineer III (Remote)",
-      "location": "9 Locations",
-      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/Australia---Remote-NW/Sr-Security-Engineer-III--Remote-_R30853-1",
+      "title": "Principal Cloud Security Researcher (Remote)",
+      "location": "USA - Remote, WY",
+      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote-WY/Principal-Cloud-Security-Researcher--Remote-_R30814",
       "date_posted": "Posted Today",
+      "date_scraped": "2026-11-12"
+    },
+    {
+      "company": "CrowdStrike",
+      "title": "Engineer II - Vulnerability Detection",
+      "location": "India - Pune",
+      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/India---Pune/Engineer-II---Vulnerability-Detection_R29202",
+      "date_posted": "Posted Today",
+      "date_scraped": "2026-11-12"
+    },
+    {
+      "company": "CrowdStrike",
+      "title": "Sr Software Engineer, Cloud - Vulnerability Management (Hybrid)",
+      "location": "USA - Sunnyvale, CA",
+      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Sunnyvale-CA/Sr-Engineer---Risk-Platform--Hybrid--Sunnyvale-_R29171",
+      "date_posted": "Posted 2 Days Ago",
+      "date_scraped": "2026-11-12"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Digital Solution Security Specialists",
+      "location": "Dallas, TX, US; Mountain View, CA, US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393557024803-digital-solution-security-specialists-united-states-texas-dallas?domain=microsoft.com",
+      "date_posted": "2026-11-12",
+      "date_scraped": "2026-11-12"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Incident Response Program Manager",
+      "location": "Seattle, WA, US",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393557026551-incident-response-program-manager-united-states-washington-seattle?domain=microsoft.com",
+      "date_posted": "2026-11-12",
+      "date_scraped": "2026-11-12"
+    },
+    {
+      "company": "Okta",
+      "title": "Sales Development Representative - Benelux",
+      "location": "Dublin, Ireland",
+      "url": "https://www.okta.com/company/careers/opportunity/6629089?gh_jid=6629089",
+      "date_posted": "2026-11-12",
+      "date_scraped": "2026-11-12"
+    },
+    {
+      "company": "Okta",
+      "title": "Senior Product Manager, Product Platform",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/8164066?gh_jid=8164066",
+      "date_posted": "2026-11-12",
+      "date_scraped": "2026-11-12"
+    },
+    {
+      "company": "Okta",
+      "title": "Staff Software Engineer - Backend, Identity Threat Protection",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/8358096?gh_jid=8358096",
+      "date_posted": "2026-11-12",
+      "date_scraped": "2026-11-12"
+    },
+    {
+      "company": "Okta",
+      "title": "Staff Software Engineer - Windows",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/8007091?gh_jid=8007091",
+      "date_posted": "2026-11-12",
       "date_scraped": "2026-11-12"
     },
     {
@@ -187,6 +235,14 @@
     },
     {
       "company": "Okta",
+      "title": "Principal Software Engineer in Test",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/8045905?gh_jid=8045905",
+      "date_posted": "2026-11-11",
+      "date_scraped": "2026-11-12"
+    },
+    {
+      "company": "Okta",
       "title": "Principal Software Engineer - PAM",
       "location": "Bengaluru, India",
       "url": "https://www.okta.com/company/careers/opportunity/8127234?gh_jid=8127234",
@@ -222,6 +278,14 @@
       "title": "Staff Software Engineer",
       "location": "Bengaluru, India",
       "url": "https://www.okta.com/company/careers/opportunity/8345801?gh_jid=8345801",
+      "date_posted": "2026-11-11",
+      "date_scraped": "2026-11-12"
+    },
+    {
+      "company": "Okta",
+      "title": "Staff Software Engineer",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/8263825?gh_jid=8263825",
       "date_posted": "2026-11-11",
       "date_scraped": "2026-11-12"
     },
@@ -452,16 +516,16 @@
     {
       "company": "Okta",
       "title": "Strategic Account Executive, Auth0",
-      "location": "Georgia",
-      "url": "https://www.okta.com/company/careers/opportunity/8289915?gh_jid=8289915",
+      "location": "Florida",
+      "url": "https://www.okta.com/company/careers/opportunity/8289887?gh_jid=8289887",
       "date_posted": "2026-11-10",
       "date_scraped": "2026-11-12"
     },
     {
       "company": "Okta",
       "title": "Strategic Account Executive, Auth0",
-      "location": "Florida",
-      "url": "https://www.okta.com/company/careers/opportunity/8289887?gh_jid=8289887",
+      "location": "Georgia",
+      "url": "https://www.okta.com/company/careers/opportunity/8289915?gh_jid=8289915",
       "date_posted": "2026-11-10",
       "date_scraped": "2026-11-12"
     },
@@ -502,14 +566,6 @@
       "title": "Senior Software Engineer - Cloud & Security",
       "location": "Hyderabad, TS, IN",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393557006368-senior-software-engineer-cloud-security-india-telangana-hyderabad?domain=microsoft.com",
-      "date_posted": "2026-11-09",
-      "date_scraped": "2026-11-12"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Principal Security Specialists-GCR",
-      "location": "Hong Kong Island, HK; Shanghai, Shanghai, CN; Taipei City, TW",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393557014642-principal-security-specialists-gcr-hong-kong-sar-hong-kong-island-hong-kong?domain=microsoft.com",
       "date_posted": "2026-11-09",
       "date_scraped": "2026-11-12"
     },
@@ -619,22 +675,6 @@
     },
     {
       "company": "Microsoft",
-      "title": "Digital Solution Security Specialists",
-      "location": "Dallas, TX, US; Mountain View, CA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393557024803-digital-solution-security-specialists-united-states-texas-dallas?domain=microsoft.com",
-      "date_posted": "2026-11-06",
-      "date_scraped": "2026-11-12"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Incident Response Program Manager",
-      "location": "Seattle, WA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393557026551-incident-response-program-manager-united-states-washington-seattle?domain=microsoft.com",
-      "date_posted": "2026-11-06",
-      "date_scraped": "2026-11-12"
-    },
-    {
-      "company": "Microsoft",
       "title": "Principal Security Researcher - Red Team",
       "location": "Redmond, WA, US",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393557048172-principal-security-researcher-red-team-united-states-washington-redmond?domain=microsoft.com",
@@ -723,14 +763,6 @@
     },
     {
       "company": "Microsoft",
-      "title": "Senior Security Researcher - CTJ - TS/SCI",
-      "location": "Reston, VA, US; Redmond, WA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393557050359-senior-security-researcher-ctj-ts-sci-united-states-virginia-reston?domain=microsoft.com",
-      "date_posted": "2026-11-05",
-      "date_scraped": "2026-11-12"
-    },
-    {
-      "company": "Microsoft",
       "title": "Senior Security Software Engineer",
       "location": "US",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393557044880-senior-security-software-engineer-united-states-multiple-locations-multiple-locations?domain=microsoft.com",
@@ -804,16 +836,16 @@
     {
       "company": "Okta",
       "title": "Category Manager, Technology Sourcing",
-      "location": "Bellevue, Washington",
-      "url": "https://www.okta.com/company/careers/opportunity/8355916?gh_jid=8355916",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/8355883?gh_jid=8355883",
       "date_posted": "2026-11-05",
       "date_scraped": "2026-11-12"
     },
     {
       "company": "Okta",
       "title": "Category Manager, Technology Sourcing",
-      "location": "San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/8355883?gh_jid=8355883",
+      "location": "Bellevue, Washington",
+      "url": "https://www.okta.com/company/careers/opportunity/8355916?gh_jid=8355916",
       "date_posted": "2026-11-05",
       "date_scraped": "2026-11-12"
     },
@@ -854,14 +886,6 @@
       "title": "Partner Services Senior Program Manager",
       "location": "San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/8347758?gh_jid=8347758",
-      "date_posted": "2026-11-05",
-      "date_scraped": "2026-11-12"
-    },
-    {
-      "company": "Okta",
-      "title": "Sales Development Representative",
-      "location": "Dublin, Ireland",
-      "url": "https://www.okta.com/company/careers/opportunity/6629089?gh_jid=6629089",
       "date_posted": "2026-11-05",
       "date_scraped": "2026-11-12"
     },
@@ -988,16 +1012,16 @@
     {
       "company": "Okta",
       "title": "Auth0 Account Executive- New Business ",
-      "location": "San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/8292594?gh_jid=8292594",
+      "location": "Washington, DC",
+      "url": "https://www.okta.com/company/careers/opportunity/8292623?gh_jid=8292623",
       "date_posted": "2026-11-04",
       "date_scraped": "2026-11-12"
     },
     {
       "company": "Okta",
       "title": "Auth0 Account Executive- New Business ",
-      "location": "Washington, DC",
-      "url": "https://www.okta.com/company/careers/opportunity/8292623?gh_jid=8292623",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/8292594?gh_jid=8292594",
       "date_posted": "2026-11-04",
       "date_scraped": "2026-11-12"
     },
@@ -1181,7 +1205,7 @@
       "company": "Okta",
       "title": "Staff FullStack Engineer, Secures AI ",
       "location": "Toronto, Ontario, Canada",
-      "url": "https://www.okta.com/company/careers/opportunity/8314936?gh_jid=8314936",
+      "url": "https://www.okta.com/company/careers/opportunity/8120329?gh_jid=8120329",
       "date_posted": "2026-11-04",
       "date_scraped": "2026-11-12"
     },
@@ -1189,7 +1213,7 @@
       "company": "Okta",
       "title": "Staff FullStack Engineer, Secures AI ",
       "location": "Toronto, Ontario, Canada",
-      "url": "https://www.okta.com/company/careers/opportunity/8120329?gh_jid=8120329",
+      "url": "https://www.okta.com/company/careers/opportunity/8314936?gh_jid=8314936",
       "date_posted": "2026-11-04",
       "date_scraped": "2026-11-12"
     },
@@ -1278,14 +1302,6 @@
       "title": "Strategic Account Executive ",
       "location": "Texas",
       "url": "https://www.okta.com/company/careers/opportunity/8054427?gh_jid=8054427",
-      "date_posted": "2026-11-04",
-      "date_scraped": "2026-11-12"
-    },
-    {
-      "company": "Okta",
-      "title": "Strategic Account Executive ",
-      "location": "Los Angeles, California",
-      "url": "https://www.okta.com/company/careers/opportunity/8289582?gh_jid=8289582",
       "date_posted": "2026-11-04",
       "date_scraped": "2026-11-12"
     },
@@ -1770,14 +1786,6 @@
       "date_scraped": "2026-11-12"
     },
     {
-      "company": "Microsoft",
-      "title": "Principal Security Engineer",
-      "location": "Redmond, WA, US; Atlanta, GA, US; Reston, VA, US; Pittsburgh, PA, US; Jessup, MD, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556995459-principal-security-engineer-united-states-washington-redmond?domain=microsoft.com",
-      "date_posted": "2026-10-29",
-      "date_scraped": "2026-11-12"
-    },
-    {
       "company": "Okta",
       "title": "Finance Manager, Products & Technology",
       "location": "San Francisco, California",
@@ -1915,14 +1923,6 @@
     },
     {
       "company": "Microsoft",
-      "title": "High Security Design Manager",
-      "location": "US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393557045447-high-security-design-manager-united-states-multiple-locations-multiple-locations?domain=microsoft.com",
-      "date_posted": "2026-10-28",
-      "date_scraped": "2026-11-12"
-    },
-    {
-      "company": "Microsoft",
       "title": "Senior Security IP Engineer",
       "location": "Mountain View, CA, US; Hillsboro, OR, US; Austin, TX, US; Redmond, WA, US; Raleigh, NC, US",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556947404-senior-security-ip-engineer-united-states-california-mountain-view?domain=microsoft.com",
@@ -2051,14 +2051,6 @@
     },
     {
       "company": "Microsoft",
-      "title": "Security Researcher II",
-      "location": "Hyderabad, TS, IN; Bengaluru, KA, IN; Bengaluru, KA, IN",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393557043780-security-researcher-ii-india-telangana-hyderabad?domain=microsoft.com",
-      "date_posted": "2026-10-26",
-      "date_scraped": "2026-11-12"
-    },
-    {
-      "company": "Microsoft",
       "title": "SME&C Finance Security CSA",
       "location": "Redmond, WA, US; Atlanta, GA, US",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393557041689-sme-c-finance-security-csa-united-states-washington-redmond?domain=microsoft.com",
@@ -2131,14 +2123,6 @@
     },
     {
       "company": "Okta",
-      "title": "Head of Partner Operations APJ",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/8305245?gh_jid=8305245",
-      "date_posted": "2026-10-23",
-      "date_scraped": "2026-11-12"
-    },
-    {
-      "company": "Okta",
       "title": "Manager, Site Reliability Engineer",
       "location": "Bengaluru, India",
       "url": "https://www.okta.com/company/careers/opportunity/7247309?gh_jid=7247309",
@@ -2171,14 +2155,6 @@
     },
     {
       "company": "Okta",
-      "title": "Staff Software Engineer",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/8161278?gh_jid=8161278",
-      "date_posted": "2026-10-23",
-      "date_scraped": "2026-11-12"
-    },
-    {
-      "company": "Okta",
       "title": "Staff Software Engineer, AI Platform & Infrastructure",
       "location": "San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/8319285?gh_jid=8319285",
@@ -2191,14 +2167,6 @@
       "location": "San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/7463779?gh_jid=7463779",
       "date_posted": "2026-10-23",
-      "date_scraped": "2026-11-12"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Senior Security Delivery Expert",
-      "location": "Hyderabad, TS, IN; Noida, UP, IN",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393557042208-senior-security-delivery-expert-india-telangana-hyderabad?domain=microsoft.com",
-      "date_posted": "2026-10-22",
       "date_scraped": "2026-11-12"
     },
     {
@@ -2500,16 +2468,16 @@
     {
       "company": "Okta",
       "title": "Sr. Category Manager, Technology Sourcing",
-      "location": "San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/8234036?gh_jid=8234036",
+      "location": "Bellevue, Washington",
+      "url": "https://www.okta.com/company/careers/opportunity/8278594?gh_jid=8278594",
       "date_posted": "2026-10-19",
       "date_scraped": "2026-11-12"
     },
     {
       "company": "Okta",
       "title": "Sr. Category Manager, Technology Sourcing",
-      "location": "Bellevue, Washington",
-      "url": "https://www.okta.com/company/careers/opportunity/8278594?gh_jid=8278594",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/8234036?gh_jid=8234036",
       "date_posted": "2026-10-19",
       "date_scraped": "2026-11-12"
     },
@@ -2550,14 +2518,6 @@
       "title": "Enablement Business Partner",
       "location": "Bellevue, Washington; Chicago, Illinois; San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/8277098?gh_jid=8277098",
-      "date_posted": "2026-10-16",
-      "date_scraped": "2026-11-12"
-    },
-    {
-      "company": "Okta",
-      "title": "Globalization Software Engineer",
-      "location": "Bellevue, Washington; Chicago, Illinois; San Francisco, California; Toronto, Ontario, Canada",
-      "url": "https://www.okta.com/company/careers/opportunity/8093199?gh_jid=8093199",
       "date_posted": "2026-10-16",
       "date_scraped": "2026-11-12"
     },
@@ -2884,8 +2844,8 @@
     {
       "company": "Okta",
       "title": "Director, M&A People Strategy & Integration",
-      "location": "Bellevue, Washington",
-      "url": "https://www.okta.com/company/careers/opportunity/8275287?gh_jid=8275287",
+      "location": "Chicago, Illinois",
+      "url": "https://www.okta.com/company/careers/opportunity/8275286?gh_jid=8275286",
       "date_posted": "2026-10-13",
       "date_scraped": "2026-11-12"
     },
@@ -2900,8 +2860,8 @@
     {
       "company": "Okta",
       "title": "Director, M&A People Strategy & Integration",
-      "location": "Chicago, Illinois",
-      "url": "https://www.okta.com/company/careers/opportunity/8275286?gh_jid=8275286",
+      "location": "Bellevue, Washington",
+      "url": "https://www.okta.com/company/careers/opportunity/8275287?gh_jid=8275287",
       "date_posted": "2026-10-13",
       "date_scraped": "2026-11-12"
     },
@@ -3389,6 +3349,14 @@
       "company": "Okta",
       "title": "Staff Software Engineer",
       "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/8243997?gh_jid=8243997",
+      "date_posted": "2026-09-30",
+      "date_scraped": "2026-11-12"
+    },
+    {
+      "company": "Okta",
+      "title": "Staff Software Engineer",
+      "location": "San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/8243124?gh_jid=8243124",
       "date_posted": "2026-09-30",
       "date_scraped": "2026-11-12"
@@ -3398,14 +3366,6 @@
       "title": "Staff Software Engineer",
       "location": "Toronto, Ontario, Canada",
       "url": "https://www.okta.com/company/careers/opportunity/8243158?gh_jid=8243158",
-      "date_posted": "2026-09-30",
-      "date_scraped": "2026-11-12"
-    },
-    {
-      "company": "Okta",
-      "title": "Staff Software Engineer",
-      "location": "San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/8243997?gh_jid=8243997",
       "date_posted": "2026-09-30",
       "date_scraped": "2026-11-12"
     },
@@ -3733,7 +3693,7 @@
       "company": "Okta",
       "title": "Staff TDI Site Reliability Engineer, Okta Federal",
       "location": "Washington, DC",
-      "url": "https://www.okta.com/company/careers/opportunity/8073066?gh_jid=8073066",
+      "url": "https://www.okta.com/company/careers/opportunity/8073062?gh_jid=8073062",
       "date_posted": "2026-09-22",
       "date_scraped": "2026-11-12"
     },
@@ -3741,7 +3701,7 @@
       "company": "Okta",
       "title": "Staff TDI Site Reliability Engineer, Okta Federal",
       "location": "Washington, DC",
-      "url": "https://www.okta.com/company/careers/opportunity/8073062?gh_jid=8073062",
+      "url": "https://www.okta.com/company/careers/opportunity/8073066?gh_jid=8073066",
       "date_posted": "2026-09-22",
       "date_scraped": "2026-11-12"
     },
@@ -3838,14 +3798,6 @@
       "title": "Global Paid Search Marketing Manager",
       "location": "Bellevue, Washington; Chicago, Illinois; Toronto, Ontario, Canada",
       "url": "https://www.okta.com/company/careers/opportunity/8099186?gh_jid=8099186",
-      "date_posted": "2026-09-21",
-      "date_scraped": "2026-11-12"
-    },
-    {
-      "company": "Okta",
-      "title": "GTM Compensation Strategy & Incentive Design Manager",
-      "location": "Bellevue, Washington; Chicago, Illinois; San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/8073082?gh_jid=8073082",
       "date_posted": "2026-09-21",
       "date_scraped": "2026-11-12"
     },
@@ -4014,14 +3966,6 @@
       "title": "Senior Experiences Art Director",
       "location": "San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/8109371?gh_jid=8109371",
-      "date_posted": "2026-09-21",
-      "date_scraped": "2026-11-12"
-    },
-    {
-      "company": "Okta",
-      "title": "Senior Identity Specialist-Governance",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/7821054?gh_jid=7821054",
       "date_posted": "2026-09-21",
       "date_scraped": "2026-11-12"
     },
@@ -4220,16 +4164,16 @@
     {
       "company": "Okta",
       "title": "Staff Software Engineer ",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016",
+      "location": "Tel Aviv, Israel",
+      "url": "https://www.okta.com/company/careers/opportunity/8041857?gh_jid=8041857",
       "date_posted": "2026-09-21",
       "date_scraped": "2026-11-12"
     },
     {
       "company": "Okta",
       "title": "Staff Software Engineer ",
-      "location": "Tel Aviv, Israel",
-      "url": "https://www.okta.com/company/careers/opportunity/8041857?gh_jid=8041857",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016",
       "date_posted": "2026-09-21",
       "date_scraped": "2026-11-12"
     },
@@ -4238,14 +4182,6 @@
       "title": "Staff Software Engineer, Core Infrastructure ",
       "location": "San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/8081732?gh_jid=8081732",
-      "date_posted": "2026-09-21",
-      "date_scraped": "2026-11-12"
-    },
-    {
-      "company": "Okta",
-      "title": "Staff Software Engineer - Windows",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/8007091?gh_jid=8007091",
       "date_posted": "2026-09-21",
       "date_scraped": "2026-11-12"
     },
