@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-11-14T14:38:39.427471+00:00",
+  "last_updated": "2026-11-14T20:15:12.600187+00:00",
   "internships": [
+    {
+      "company": "CrowdStrike",
+      "title": "Specialist Sales, Cloud Security",
+      "location": "Japan - Tokyo",
+      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/Japan---Tokyo/Specialist-Sales-Manager--ASPM-Cloud_R29011",
+      "date_posted": "Posted Yesterday",
+      "date_scraped": "2026-11-14"
+    },
+    {
+      "company": "CrowdStrike",
+      "title": "Threat Emulation & Exposure Principal Consultant (Remote)",
+      "location": "USA - Remote",
+      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Threat-Emulation---Exposure-Principal-Consultant--Remote-_R30674",
+      "date_posted": "Posted Yesterday",
+      "date_scraped": "2026-11-14"
+    },
+    {
+      "company": "CrowdStrike",
+      "title": "Threat Emulation & Exposure Senior Consultant (Remote)",
+      "location": "USA - Remote",
+      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Threat-Emulation---Exposure-Senior-Consultant--Remote-_R30673",
+      "date_posted": "Posted Yesterday",
+      "date_scraped": "2026-11-14"
+    },
+    {
+      "company": "CrowdStrike",
+      "title": "Sr. Threat Hunting Intelligence Analyst II (Remote)",
+      "location": "USA - Remote",
+      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Sr-Threat-Hunting-Intelligence-Analyst-II--Remote-_R30427",
+      "date_posted": "Posted Yesterday",
+      "date_scraped": "2026-11-14"
+    },
+    {
+      "company": "CrowdStrike",
+      "title": "Incident Response Principal Consultant (Remote)",
+      "location": "USA - Remote",
+      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Incident-Response-Principal-Consultant--Remote-_R30547",
+      "date_posted": "Posted Yesterday",
+      "date_scraped": "2026-11-14"
+    },
+    {
+      "company": "CrowdStrike",
+      "title": "Sr Software Engineer, Cloud - Vulnerability Management (Hybrid)",
+      "location": "USA - Sunnyvale, CA",
+      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Sunnyvale-CA/Sr-Engineer---Risk-Platform--Hybrid--Sunnyvale-_R29171",
+      "date_posted": "Posted 4 Days Ago",
+      "date_scraped": "2026-11-14"
+    },
     {
       "company": "Microsoft",
       "title": "Cloud Solution Architect - Data Security",
@@ -3275,14 +3323,6 @@
     },
     {
       "company": "Microsoft",
-      "title": "Senior Security Project Manager",
-      "location": "Atlanta, GA, US",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393557050809-senior-security-project-manager-united-states-georgia-atlanta?domain=microsoft.com",
-      "date_posted": "2026-11-06",
-      "date_scraped": "2026-11-14"
-    },
-    {
-      "company": "Microsoft",
       "title": "Principal Security Operations Engineering Manager",
       "location": "Sunnyvale, CA, US",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393557044766-principal-security-operations-engineering-manager-united-states-california-sunnyvale?domain=microsoft.com",
@@ -4171,10 +4211,6 @@
     }
   ],
   "failed_scrapers": [
-    {
-      "company": "CrowdStrike",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
     {
       "company": "Rapid7",
       "error": "422 Client Error: Unprocessable Entity for url: https://rapid7.wd5.myworkdayjobs.com/wday/cxs/rapid7/rapid7-Careers/jobs"
